@@ -7,15 +7,19 @@ html {
 /* navbar */
 header {
     background-color: #134E4A;
-    height: 100px;
     display: flex;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header nav {
-    height: 50px;
-    justify-content: center;
-    background-color: red;
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
 }
 
 header nav ul {
@@ -27,5 +31,36 @@ header nav ul li {
 }
 
 header nav ul li  a {
+    padding: 10px;
     color: #F5F5F5;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #0F766E;
+    border-radius: 10px;
+}
+
+header nav ul li img {
+    margin-right: 5px;
+}
+
+img#logo_home {
+    width: 20px;
+    margin-bottom: -2px;
+}
+
+img#logo_tutorial {
+    width: 23px;
+    margin-bottom: -3px;
+}
+
+img#logo_kontak {
+    width: 23px;
+    margin-bottom: -4px;
+}
+
+img#logo_about {
+    margin-bottom: -4px;
+    width: 20px;
 }
