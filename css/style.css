@@ -61,6 +61,10 @@ header nav button {
     width: 80px;
 }
 
+header nav button:hover {
+    background-color: rgba(20, 184, 166, 0.3);
+}
+
 img#logo_home {
     width: 20px;
     margin-bottom: -2px;
@@ -96,5 +100,5 @@ img#logo_about {
 #isi-atas h1 {
     font-family: 'Francois One', sans-serif;
     color: #F5F5F5;
-    font-size:x-large;
+    font-size:;
 }
