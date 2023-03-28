@@ -1,8 +1,8 @@
 /* import font */
     /* francois one */
     @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
-    /* lexend */
-    @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+    /* roboto */
+    @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&family=Roboto:wght@700&display=swap');
 
 *,
 body,
@@ -12,7 +12,7 @@ html {
 
 /* navbar */
 header {
-    background-color: #134E4A;
+    background-color: black;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -21,14 +21,19 @@ header {
 }
 
 header nav {
+    font-family: 'Roboto', sans-serif;
     width: 1250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
+    height: 93px;
     margin-top: -7px;
+    background-color: black;
 }
 
+header nav img {
+    width: 50px;
+}
 header nav ul {
     list-style: none;
 }
@@ -42,6 +47,11 @@ header nav ul li  a {
     color: #F5F5F5;
     text-decoration: none;
 }
+
+header nav ul .dc {
+    color: whitesmoke;
+}
+
 
 header nav ul li a:hover {
     background-color: #0F766E;
