@@ -6,14 +6,19 @@ html {
 
 /* navbar */
 header {
-    height: 90px;
+    width: 100%;
     background-color: black;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
     width: 100%;
     font-size: 15px;
+}
+
+header:hover {
+    cursor: default;
 }
 
 header img {
@@ -29,7 +34,7 @@ header a {
 }
 
 nav {
-    width: 1215px;
+    width: 1115px;
     height: 90px;
     display: flex;
     align-items: center;
@@ -48,4 +53,27 @@ nav .discord {
 
 nav p {
     cursor: default;
+}
+
+.kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kanan img {
+    width: 22px;
+}
+
+.kanan button {
+    border: none;
+    background-color: rgba(255, 51, 102, 1);
+    border-radius: 5px;
+    padding: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
