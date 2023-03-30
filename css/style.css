@@ -84,3 +84,7 @@ nav p {
     align-items: center;
     cursor: pointer;
 }
+
+footer{
+    background-color: crimson;
+}
