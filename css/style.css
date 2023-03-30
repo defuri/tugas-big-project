@@ -84,3 +84,13 @@ nav p {
     align-items: center;
     cursor: pointer;
 }
+
+/* header beres */
+
+article {
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+}
