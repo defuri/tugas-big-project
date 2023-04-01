@@ -77,7 +77,6 @@ nav button:active {
 #navigasi {
     margin-left: -50px;
 }
-
 /* navbar selesai */
 
 header {
@@ -93,6 +92,7 @@ header h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
     letter-spacing: 2px;
+    line-height: 55px;
 }
 
 header p {
@@ -131,6 +131,48 @@ header p {
 
 #gambar img {
     width: 100%;
+} 
+/* header selesai */
+
+#bungkus-perkenalan {
+    display: flex;
+    justify-content: center;
+}
+#perkenalan {
+    width: 1200px;
+}
+
+#perkenalan h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#perkenalan p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+}
+
+#bungkus-pelajaran {
+    display: flex;
+    justify-content: center;
+}
+
+#container-pelajaran {
+    border: 5px solid red;
+    width: 1200px;
+}
+
+#container-pelajaran h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#container-pelajaran h2 {
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+#container-pelajaran p {
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /* artikel selesai */
