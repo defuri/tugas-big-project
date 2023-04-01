@@ -23,6 +23,8 @@ nav {
     margin-top: 17px;
     display: flex;
     justify-content: space-between;
+    cursor: default;
+    background-color: whitesmoke;
 }
 
 nav a {
@@ -64,8 +66,16 @@ nav button:hover {
     cursor: pointer;
 }
 
-/* container-header beres */
+#navigasi {
+    margin-left: -50px;
+}
 
-/* footer{
+/* navbar selesai */
+
+#container-article {
+    padding-top: 70px;
+}
+/* artikel selesai */
+footer{
     background-color: crimson;
-} */
+}
