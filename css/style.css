@@ -1,100 +1,71 @@
+@font-face {
+    font-family: core-sans;
+    src: url(../font/CoreSansC-45Regular.ttf);
+}
+
 *,
 body,
 html {
     margin: 0;
 }
 
-header {
-    width: 100%;
-    background-color: black;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#kontainer-header {
     position: fixed;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    font-size: 15px;
-}
-
-header:hover {
-    cursor: default;
-}
-
-header img {
-    width: 45px;
-}
-
-header a {
-    text-decoration: none;
-    color: #626262;
-    font-family: 'Roboto', sans-serif;
-    padding: 8px;
-    margin-left: 20px;
+    box-shadow: 0px 2px 7px grey;
 }
 
 nav {
-    width: 1115px;
-    height: 90px;
+    width: 1200px;
+    height: 50px;
+    margin-top: 17px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
-nav .discord {
-    color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
+nav a {
+    color: #000000;
+    text-decoration: none;
 }
 
-.circle a:hover {
-    color: whitesmoke;
-    transition: ease-out;
-    transition-duration: 0.3s;
+nav h1 {
+    margin-top: 5px;
+    font-family: 'Karla', sans-serif;
 }
 
-nav p {
-    cursor: default;
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 8px;
+    margin-right: 35px;
 }
 
-.loginatas{
-    color: whitesmoke;
+nav ul li:hover {
+    text-decoration: underline;
+}
+nav ul, button {
+    font-family: core-sans, sans-serif;
 }
 
-.kanan {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.kanan img {
-    width: 22px;
-}
-
-.kanan img:hover {
-    cursor: pointer;
-}
-
-.kanan button {
-    border: none;
-    background-color: rgb(220, 20, 60);
+nav button {
+    width: 100px;
+    padding: 10px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    border: 1px solid grey;
     border-radius: 5px;
-    padding: 14px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+nav button:hover {
+    color: whitesmoke;
+    background-color: black;
     cursor: pointer;
 }
 
-/* header beres */
+/* container-header beres */
 
-article {
-    display: flex;
-    height: 1000px;
-    justify-content: center;
-    align-items: center;
-    background-color: cyan;
-}
-
-footer{
+/* footer{
     background-color: crimson;
-}
+} */
