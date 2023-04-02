@@ -134,6 +134,11 @@ header p {
 } 
 /* header selesai */
 
+#kategori {
+    margin-top: 80px;
+    margin-bottom: 300px;
+}
+
 #bungkus-perkenalan {
     display: flex;
     justify-content: center;
@@ -143,10 +148,15 @@ header p {
 }
 
 #perkenalan h1 {
+    margin-bottom: 24px;
     font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
 }
 
 #perkenalan p {
+    margin-left: 0;
+    margin-bottom: 25px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
     font-size: 23px;
@@ -158,22 +168,74 @@ header p {
 }
 
 #container-pelajaran {
-    border: 5px solid red;
+    display: flex;
+    justify-content: space-evenly;
     width: 1200px;
+}
+
+#container-pelajaran a {
+    text-decoration: none;
+    color: black;
 }
 
 #container-pelajaran h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+#container-pelajaran h2, p {
+    margin: 20px;
+}
+
 #container-pelajaran h2 {
     font-family: 'Noto Sans', sans-serif;
-
+    color: #3F3F41;
+    font-size: 17px;
 }
 
 #container-pelajaran p {
     font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: #515252;
 }
+
+#container-pelajaran img {
+    width: 40px;
+    margin: 20px;
+    margin-right: 0;
+}
+
+.bungkus-logo {
+    display: flex;
+    align-items: center;
+}
+
+#pemrograman-dasar, #frontend-developer, #backend-developer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    height: 350px;
+    border: 1px solid #D1D1D2;
+    border-radius: 5px;
+}
+
+#pemrograman-dasar:hover, #frontend-developer:hover, #backend-developer:hover { 
+    border: 1px solid black;
+}
+
+.bawah {
+    width: 210px;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.bawah:hover {
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #D1D1D1;
+}
+/* kategori selesai */
 
 /* artikel selesai */
 footer{
