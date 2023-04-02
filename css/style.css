@@ -128,15 +128,14 @@ header p {
     width: 600px;
     float: right;
 }
-
-#gambar img {
-    width: 100%;
-} 
 /* header selesai */
 
 #kategori {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin-top: 80px;
-    margin-bottom: 300px;
+    margin-bottom: 75px;
 }
 
 #bungkus-perkenalan {
@@ -199,7 +198,7 @@ header p {
 }
 
 #container-pelajaran img {
-    width: 40px;
+    width: 50px;
     margin: 20px;
     margin-right: 0;
 }
@@ -214,7 +213,7 @@ header p {
     flex-direction: column;
     justify-content: space-between;
     width: 360px;
-    height: 350px;
+    height: 370px;
     border: 1px solid #D1D1D2;
     border-radius: 5px;
 }
@@ -233,8 +232,31 @@ header p {
     border-radius: 25px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    background-color: #D1D1D1;
+    background-color: #E3EEFC;
 }
+
+#button-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+#bungkus-button {
+    width: 1145px;
+}
+
+#kategori button {
+    margin-top: 30px;
+    padding: 13px;
+    font-size: 14px;
+    border-radius: 25px;
+    border: 2px solid #D1D1D2;
+}
+
+#kategori button:hover {
+    cursor: pointer;
+    background-color: #E8E8E8;
+}
+
 /* kategori selesai */
 
 /* artikel selesai */
