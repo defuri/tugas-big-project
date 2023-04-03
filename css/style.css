@@ -260,6 +260,46 @@ header p {
 /* kategori selesai */
 
 /* artikel selesai */
+
+/* footer */
 footer{
     background-color: crimson;
+    width: 100%;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kaki{
+    width: 98%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.produk a{
+    color: white;
+    display: block;
+    line-height: 40px;
+}
+
+.informasi a{
+    color: white;
+    display: block;
+    line-height: 40px;
+}
+
+.hubungikami a{
+    color: white;
+    display: block;
+    line-height: 40px;
+}
+h3{
+    color: white;
+    font-size: bold;
+}
+
+.kopirek{
+    margin: 100px;
+    text-align: center;
+
 }
