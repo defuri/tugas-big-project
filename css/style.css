@@ -90,7 +90,7 @@ header {
     height: 535px;
     display: flex;
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 125px;
     background-color: #FEDCAF;
 }
 
@@ -154,6 +154,7 @@ header p {
 }
 
 #perkenalan h1 {
+    margin-top: -60px;
     margin-bottom: 24px;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -269,11 +270,16 @@ header p {
 /* artikel selesai */
 
 /* footer */
+
 footer{
     background-color: #ff6961;
     width: 100%;
-    height: 600px;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .kaki{
@@ -283,6 +289,13 @@ footer{
     justify-content: space-around;
 }
 
+.kaki a {
+    text-decoration: none;
+}
+
+.kaki a:hover {
+    font-style: italic;
+}
 .produk a{
     color: white;
     display: block;
@@ -305,8 +318,15 @@ h3{
     font-size: bold;
 }
 
-.kopirek{
-    margin: 100px;
-    text-align: center;
+.footimage {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+} 
 
+.kopirek{
+    margin-top: 80px;
+    padding-bottom: 75px;
+    text-align: center;
 }
