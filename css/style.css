@@ -353,72 +353,14 @@ p {
 
 /* artikel selesai */
 
-/* footer */
+iframe {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: 432px;
+}
 
-#bungkus-footer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.footer {
     background-color: #ff6961;
-}
-
-footer {
-    width: 1200px;
-    height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-wrap: wrap;
-}
-
-.kaki {
-    width: 98%;
-    padding-top: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.kaki a {
-    text-decoration: none;
-}
-
-.kaki a:hover {
-    font-style: italic;
-}
-
-.produk a {
-    color: white;
-    display: block;
-    line-height: 40px;
-}
-
-.informasi a {
-    color: white;
-    display: block;
-    line-height: 40px;
-}
-
-.hubungikami a {
-    color: white;
-    display: block;
-    line-height: 40px;
-}
-
-h3 {
-    color: white;
-    font-size: bold;
-}
-
-.footimage {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-    margin-top: -5px;
-}
-
-.kopirek {
-    margin-top: 80px;
-    text-align: center;
-    padding-bottom: 30px;
 }
