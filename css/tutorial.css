@@ -92,7 +92,6 @@ nav ul a:hover {
 }
 
 .bawah {
-    border-bottom: 1px solid #CDCDCD; 
     color: #4D4D4D;
     background-color: whitesmoke;
     position: sticky;   
@@ -112,6 +111,7 @@ nav ul a:hover {
 }
 
 /* artikel */
+
 .bungkus-artikel {
     display: flex;
     justify-content: center;
@@ -172,6 +172,37 @@ article blockquote {
     color: #1B1B1B;
 }
 
+/* daftar isi */
+
+.daftar-isi {
+    margin-top: 40px;
+    margin-left: ;
+    width: 300px;
+}
+
+.daftar-isi h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #4E4E4E;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.list {
+    display: inline-table;
+    padding: 10px;
+    border-left: 2px solid grey;
+}
+.daftar-isi h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.daftar-isi h3 {
+    color: black;
+}
+/* box dibawah */
+
 .masalah {
     width: inherit;
     border: 1px solid grey;
@@ -182,6 +213,11 @@ article blockquote {
 .masalah h2 {
     font-size: 25px;
     color: #1B1B1B;
+}
+
+.masalah ul {
+    margin-top: -15px;
+    margin-left: 15px;
 }
 
 .masalah a {
@@ -209,4 +245,76 @@ article blockquote {
 
 .masalah .bawah a:hover {
     text-decoration: none;
+}
+
+
+/* footer */
+
+#bungkus-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ff6961;
+    margin-top: 80px;
+}
+
+footer {
+    width: 1200px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.kaki {
+    width: 98%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.kaki a {
+    text-decoration: none;
+}
+
+.kaki a:hover {
+    font-style: italic;
+}
+
+.produk a {
+    color: white;
+    display: block;
+    line-height: 40px;
+}
+
+.informasi a {
+    color: white;
+    display: block;
+    line-height: 40px;
+}
+
+.hubungikami a {
+    color: white;
+    display: block;
+    line-height: 40px;
+}
+
+h3 {
+    color: white;
+    font-size: bold;
+}
+
+.footimage {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.kopirek {
+    margin-top: 80px;
+    text-align: center;
+    padding-bottom: 30px;
 }
