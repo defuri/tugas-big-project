@@ -134,6 +134,10 @@ nav ul a:hover {
 .bawah select:hover {
     cursor: pointer;
 }
+
+#logo{
+    text-decoration: none;
+}
 /* artikel */
 
 .bungkus-artikel {
