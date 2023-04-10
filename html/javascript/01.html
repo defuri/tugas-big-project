@@ -8,9 +8,67 @@
     <link rel="icon" href="../../images/logo.png">
     <link rel="stylesheet" href="../../css/javascript/01.css">
     <title>In a Nutshell: Javascript "Organ" Sebuah Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- navbar -->
+
+    <!-- navbar -->
+
+    <div class="bungkus-nav">
+        <nav>
+            <div>
+                <a href="../index.html" id="logo">
+                    <h1>In a Nutshell</h1>
+                </a>
+
+                <ul>
+                    <a href="../index.html">
+                        <li>Home</li>
+                    </a>
+                    &ensp;
+                    <a href="#">
+                        <li>Tutorial</li>
+                    </a>
+                    &ensp;
+                    <a href="#">
+                        <li>Blog</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="nav-kanan">
+                <a href="#">Log in</a>
+                <a href="#"><button>Sign up</button></a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- ini untuk nav yang warna abu abu -->
+    <div class="bungkus-bawah">
+
+        <div class="bawah">
+            <div>
+                <a href="../index.html">Home</a> <img src="../../images/angle-right-11-512.png" alt="tanda panah" /> <a
+                    href="../front-dev.html">Frontend Developer</a> <img src="../../images/angle-right-11-512.png"
+                    alt="tanda panah" /> <a href="01.html">Javascript</a>
+            </div>
+
+            <div class="bahasa">
+                <i class="fa-solid fa-language" style="color: #03050a;"></i>
+                <select name="bahasa" id="bahasa" onchange="window.location.href=this.value;">
+                    <option value="tutorial.html" selected>🇮🇩 Bahasa Indonesia</option>
+                    <option value="#">🇺🇸 English</option>
+                    <option value="#">🇨🇳 Mandarin</option>
+                    <option value="#">🇮🇳 Hindi</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
 
     <div class="bungkus-saran">
 
@@ -222,8 +280,29 @@
             <p>Sebuah video tutorial yang luar biasa untuk mengajarkanmu bagaimana cara menjadi programmer yang efektif,
                 oleh Kelas Terbuka </p>
 
-            
+            <div class="box">
+                <h2>Menemukan masalah pada laman ini?</h2>
+                <ul>
+                    <li><a href="#">Edit laman ini di github</a></li>
+                    <li><a href="#">Laporkan masalah konten</a></li>
+                    <li><a href="#">Liat source di github</a></li>
+                </ul>
+
+                <p>Ingin terlibat lebih jauh? <a href="#">Belajar bagaimana cara konstribusi</a></p>
+                <p>Laman ini dimodifikasi pada 10 April 2023 oleh <a href="http://github.com/endangaja"
+                        target="_blank;">Muhammad Defriansyah</a></p>
+            </div>
         </article>
+
+        <div class="daftar_isi">
+            <h2>Dalam artikel ini</h2>
+            <ul>
+                <li><a href="#">Prasyarat</a></li>
+                <li><a href="#">Modul</a></li>
+                <li><a href="#">Menyelesaikan masalah umum javascript</a></li>
+                <li><a href="#">Lihat juga</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 

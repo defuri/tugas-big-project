@@ -116,6 +116,10 @@ nav ul a:hover {
     padding: 7px;
 }
 
+.bawah:hover {
+    cursor: default;
+}
+
 .bawah a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
