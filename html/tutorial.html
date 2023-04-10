@@ -23,37 +23,55 @@
 <body>
     <!-- navbar -->
 
-    <nav>
-        <div>
-            <a href="index.html">
-                <h1>In a Nutshell</h1>
-            </a>
+    <div class="bungkus-nav">
 
-            <ul>
+        <nav>
+            <div>
                 <a href="index.html">
-                    <li>Home</li>
+                    <h1>In a Nutshell</h1>
                 </a>
-                &ensp;
-                <a href="#">
-                    <li>Tutorial</li>
-                </a>
-                &ensp;
-                <a href="#">
-                    <li>Blog</li>
-                </a>
-            </ul>
-        </div>
 
-        <di class="nav-kanan">
-            <a href="#">Log in</a>
-            <a href="#"><button>Sign up</button></a>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    &ensp;
+                    <a href="#">
+                        <li>Tutorial</li>
+                    </a>
+                    &ensp;
+                    <a href="#">
+                        <li>Blog</li>
+                    </a>
+                </ul>
             </div>
-    </nav>
 
-    <div class="bawah">
-        <a href="index.html">Home</a> <img src="../images/angle-right-11-512.png" alt="tanda panah" /> <a
-            href="tutorial.html">Frontend Developer</a>
+            <div class="nav-kanan">
+                <a href="#">Log in</a>
+                <a href="#"><button>Sign up</button></a>
+            </div>
+        </nav>
+    </div>
 
+    <!-- ini untuk nav yang warna abu abu -->
+    <div class="bungkus-bawah">
+
+        <div class="bawah">
+            <div>
+                <a href="index.html">Home</a> <img src="../images/angle-right-11-512.png" alt="tanda panah" /> <a
+                    href="tutorial.html">Frontend Developer</a>
+            </div>
+
+            <div class="bahasa">
+                <i class="fa-solid fa-language" style="color: #03050a;"></i>
+                <select name="bahasa" id="bahasa">
+                    <option value="Indonesia" selected>🇮🇩 Bahasa Indonesia</option>
+                    <option value="English">🇺🇸 English</option>
+                    <option value="Mandarin">🇨🇳 Mandarin</option>
+                    <option value="Hindi">🇮🇳 Hindi</option>
+                </select>
+            </div>
+        </div>
     </div>
 
     <!-- artikel -->
@@ -328,35 +346,59 @@
 
             <div class="masalah">
                 <h2>Menemukan Masalah pada laman ini?</h2>
+                <ol>
+                    <img src="../images/hitam.png" alt="lingkaran hitam" />
+                    <li>
+                        &ensp;
+                        <a href="#">
+                            Edit laman di Github
+                        </a>
+                    </li>
 
-                <ul>
-                    <li><a href="#">
-                            <p>Edit laman di Github</p>
-                        </a></li>
-                    <li><a href="#">
-                            <p>Lapor Masalah Konten</p>
-                        </a></li>
-                    <li><a href="#">
-                            <p>Lihat Sumber Daya di Github</p>
-                        </a></li>
-                </ul>
+                    <img src="../images/hitam.png" alt="lingkaran hitam" />
+                    <li>
+                        &ensp;
+                        <a href="#">
+                            Lapor Masalah Konten
+                        </a>
+                    </li>
+                    
+                    
+                    <img src="../images/hitam.png" alt="lingkaran hitam" />
+                    <li>
+                        &ensp;
+                        <a href="#">
+                        Lihat Sumber Daya di Github
+                    </a>
+                </li>
+                </ol>
 
-                <p class="bawah">Ingin terlibat lebih jauh?&nbsp;<a href="#">Belajar bagaimana berkontribusi</a></p>
-                </ul>
+                <br />
+                <p style="margin-left: 10px;">Ingin terlibat lebih jauh? <a href="#">Belajar bagaimana berkontribusi</a></p>
             </div>
         </article>
 
         <!-- daftar isi -->
-
         <div class="daftar-isi">
             <h1>Dalam artikel ini</h1>
             <div class="list">
-                <h2>Untuk orang awam yang baru mengenal Web</h2>
-                <h3>Tutorial HTML</h3>
-                <h3>Tutorial CSS</h3>
-                <h3>Tutorial Javascript</h3>
+                <a href="#">
+                    <p style="margin-top: 10px;">Untuk orang awam yang baru mengenal Web</p>
+                </a>
+                <a href="#">
+                    <p>Tutorial HTML</p>
+                </a>
+                <a href="#">
+                    <p>Tutorial CSS</p>
+                </a>
+                <a href="#">
+                    <p>Tutorial Javascript</p>
+                </a>
+                <br />
             </div>
         </div>
+    </div>
+
     </div>
 
     <div id="bungkus-footer">
