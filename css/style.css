@@ -92,7 +92,7 @@ nav button:active {
 
 #navigasi {
     margin-left: -50px;
-    transition: all .5s;
+    transition: all .5s ease;
 }
 
 #navigasi.scrolled1 {
@@ -436,29 +436,41 @@ footer {
 }
 
 .kaki a:hover {
-    font-style: italic;
+    animation: zoom ease-in-out .5s infinite;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 .produk a {
-    color: white;
+    color: #000;
     display: block;
     line-height: 40px;
 }
 
 .informasi a {
-    color: white;
+    color: #000;
     display: block;
     line-height: 40px;
 }
 
 .hubungikami a {
-    color: white;
+    color: #000;
     display: block;
     line-height: 40px;
 }
 
 h3 {
-    color: white;
+    color: #000;
     font-size: bold;
 }
 
@@ -473,4 +485,5 @@ h3 {
     margin-top: 80px;
     text-align: center;
     padding-bottom: 30px;
+    color: #000;
 }
