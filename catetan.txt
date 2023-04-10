@@ -6,7 +6,7 @@ contoh desain:
         https://www.gojek.com/id-id/help/mitra/
 
 todo:
-    benerin zoom level
+    b
 
 hal yang harus dilakukan:
     tambahin kata kata made with love dsb di footer
