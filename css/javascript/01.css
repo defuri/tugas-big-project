@@ -3,6 +3,27 @@
     padding: 0;
 }
 
+
+a {
+    text-decoration: none;
+}
+
+.saran {
+    border: 2px solid black;
+}
+
+.saran a {
+    color: #4E4E4E;
+    font-family: 'Roboto', sans-serif;
+}
+
+.saran h3 {
+    font-size: 17px;
+}
+
+.saran h3:hover {
+    text-decoration: underline;
+}
 /* navbar disini */
 
 .bungkus-nav {
@@ -11,13 +32,13 @@
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #CDCDCD;
+    background-color: white;
 }
 
 nav {
     width: 1360px;
     display: flex;
     justify-content: space-between;
-    background-color: white;
     
 }
 
@@ -141,4 +162,11 @@ nav ul a:hover {
 
 #logo{
     text-decoration: none;
+}
+
+/* navbar selesai */
+
+.bungkus-saran .saran {
+    overflow: scroll;
+    width: 300px;
 }
