@@ -208,3 +208,55 @@ nav ul a:hover {
     font-size: 40px;
     margin-bottom: 30px;
 }
+
+.bungkus-artikel p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.bungkus-artikel .bungkus_kotak {
+    background-color: #F9F9FB;
+    border: 1px solid #CDCDCD;
+    border-radius: 5px;
+}
+
+article a {
+    text-decoration: underline;
+    color: #1A73E8;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.kotak {
+    margin: 30px 40px 30px 30px;
+}
+
+.kotak h2 {
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.kotak p {
+    font-size: 15px;
+}
+
+.kotak a {
+    font-weight: bold;
+}
+
+.bungkus_kotak {
+    margin-bottom: 45px;
+}
+
+article ul {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+article ul li {
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
