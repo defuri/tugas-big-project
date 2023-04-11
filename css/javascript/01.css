@@ -205,7 +205,7 @@ nav ul a:hover {
 }
 
 .bungkus-artikel h2 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 30px;
 }
 
@@ -259,4 +259,28 @@ article ul {
 article ul li {
     margin-bottom: 15px;
     letter-spacing: 1px;
+}
+
+.bungkus-kotak {
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+.bungkus-kotak p {
+    font-size: 17px;
+}
+
+article h3 {
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.tutorial p {
+    margin-left: 30px;
+}
+
+.handap h2 {
+    font-size: 30px;
 }
