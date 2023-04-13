@@ -1,4 +1,2 @@
-pindahin file biar rapih
-benerin navbar yang numpuk
-benerin bocor di navbar front-dev.html
+benerin daftar isi 
 tambahin kata kata made with love di footer

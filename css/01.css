@@ -22,6 +22,13 @@ a {
 }
 
 /* navbar disini */
+
+.kontainer-nav {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+}
+
 .bungkus-nav {
     position: sticky;
     top: 0;
@@ -35,7 +42,7 @@ nav {
     width: 1360px;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 nav:hover {
@@ -118,9 +125,10 @@ nav ul a:hover {
 .bungkus-bawah {
     display: flex;
     justify-content: center;
-    position: sticky;   
+    position: sticky;
     top: 63px;
     width: 100%;
+    z-index: 200;
     background-color: whitesmoke;
     border-bottom: 1px solid #CDCDCD;
 }
@@ -156,7 +164,7 @@ nav ul a:hover {
     cursor: pointer;
 }
 
-#logo{
+#logo {
     text-decoration: none;
 }
 
@@ -190,7 +198,7 @@ nav ul a:hover {
     overflow: scroll;
     width: 320px;
     height: 580px;
-}   
+}
 
 .saran a:hover {
     text-decoration: underline;
@@ -393,13 +401,15 @@ footer {
 }
 
 @keyframes zoom {
-    0%{
+    0% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(1.1);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 }

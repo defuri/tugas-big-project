@@ -5,6 +5,12 @@
 
 /* navbar disini */
 
+.parent-nav {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+}
+
 .bungkus-nav {
     position: sticky;
     -webkit-position: sticky;
@@ -215,7 +221,6 @@ article blockquote {
 
 .bungkus-daftar-isi {
     top: 157px;
-    background-color: black;
     position: sticky;
 }
 

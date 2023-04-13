@@ -23,52 +23,58 @@
 <body>
     <!-- navbar -->
 
-    <div class="bungkus-nav">
-        <nav>
-            <div>
-                <a href="index.html" id="logo">
-                    <h1>In a Nutshell</h1>
-                </a>
+    <div class="parent-nav">
 
-                <ul>
-                    <a href="index.html">
-                        <li>Home</li>
-                    </a>
-                    &ensp;
-                    <a href="#">
-                        <li>Tutorial</li>
-                    </a>
-                    &ensp;
-                    <a href="#">
-                        <li>Blog</li>
-                    </a>
-                </ul>
+        <div class="bungkus-nav">
+
+            <div class="bungkus-nav">
+                <nav>
+                    <div>
+                        <a href="index.html" id="logo">
+                            <h1>In a Nutshell</h1>
+                        </a>
+
+                        <ul>
+                            <a href="index.html">
+                                <li>Home</li>
+                            </a>
+                            &ensp;
+                            <a href="#">
+                                <li>Tutorial</li>
+                            </a>
+                            &ensp;
+                            <a href="#">
+                                <li>Blog</li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <div class="nav-kanan">
+                        <a href="#">Log in</a>
+                        <a href="#"><button>Sign up</button></a>
+                    </div>
+                </nav>
             </div>
+        </div>
 
-            <div class="nav-kanan">
-                <a href="#">Log in</a>
-                <a href="#"><button>Sign up</button></a>
-            </div>
-        </nav>
-    </div>
+        <!-- ini untuk nav yang warna abu abu -->
+        <div class="bungkus-bawah">
 
-    <!-- ini untuk nav yang warna abu abu -->
-    <div class="bungkus-bawah">
+            <div class="bawah">
+                <div>
+                    <a href="index.html">Home</a> <img src="../images/angle-right-11-512.png" alt="tanda panah" /> <a
+                        href="front-dev.html">Frontend Developer</a>
+                </div>
 
-        <div class="bawah">
-            <div>
-                <a href="index.html">Home</a> <img src="../images/angle-right-11-512.png" alt="tanda panah" /> <a
-                    href="front-dev.html">Frontend Developer</a>
-            </div>
-
-            <div class="bahasa">
-                <i class="fa-solid fa-language" style="color: #03050a;"></i>
-                <select name="bahasa" id="bahasa" onchange="window.location.href=this.value;">
-                    <option value="front-dev.html" selected>🇮🇩 Bahasa Indonesia</option>
-                    <option value="#">🇺🇸 English</option>
-                    <option value="#">🇨🇳 Mandarin</option>
-                    <option value="#">🇮🇳 Hindi</option>
-                </select>
+                <div class="bahasa">
+                    <i class="fa-solid fa-language" style="color: #03050a;"></i>
+                    <select name="bahasa" id="bahasa" onchange="window.location.href=this.value;">
+                        <option value="front-dev.html" selected>🇮🇩 Bahasa Indonesia</option>
+                        <option value="#">🇺🇸 English</option>
+                        <option value="#">🇨🇳 Mandarin</option>
+                        <option value="#">🇮🇳 Hindi</option>
+                    </select>
+                </div>
             </div>
         </div>
     </div>
@@ -303,7 +309,7 @@
             <a href="#">Pentingnya Pola Desain JavaScript</a>
             <p>Pengenalan pola desain JavaScript yang penting.</p>
 
-            <a href="#">JavaScript.info - Tutorial JavaScript Modern</a>
+            <a href="01.html">JavaScript.info - Tutorial JavaScript Modern</a>
             <p>Part 1: Bahasa. Part 2: Bekerja dengan Browser.</p>
 
             <h3>Level Lanjutan</h3>
@@ -396,7 +402,7 @@
                         <a href="#">
                             <p>Tutorial CSS</p>
                         </a>
-                        <a href="#">
+                        <a href="01.html">
                             <p>Tutorial Javascript</p>
                         </a>
                         <br />
