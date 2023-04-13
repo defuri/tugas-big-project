@@ -10,6 +10,7 @@
     top: 0;
     display: flex;
     justify-content: center;
+    background-color: white;
     border-bottom: 1px solid #CDCDCD;
 }
 
@@ -17,8 +18,7 @@ nav {
     width: 1360px;
     display: flex;
     justify-content: space-between;
-    background-color: white;
-    
+    background-color: white;   
 }
 
 nav:hover {
@@ -213,9 +213,11 @@ article blockquote {
 .daftar-isi {
     margin-left: 40px;
     width: 300px;
+    position: sticky;
+    top: 157px;
 }
 
-.daftar-isi h1 {
+.daftar-isi h2 {
     font-family: 'Roboto', sans-serif;
     color: #1B1B1B;
     font-size: 20px;
@@ -287,14 +289,22 @@ article blockquote {
     margin-top: 20px;
     width: 5px;
 }
-/* footer */
 
+/* footer */
 #bungkus-footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     background-color: #ff6961;
     margin-top: 80px;
+}
+
+#container-footer {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ff6961;
 }
 
 footer {
@@ -319,29 +329,41 @@ footer {
 }
 
 .kaki a:hover {
-    font-style: italic;
+    animation: zoom ease-in-out .5s infinite;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 .produk a {
-    color: white;
+    color: #000;
     display: block;
     line-height: 40px;
 }
 
 .informasi a {
-    color: white;
+    color: #000;
     display: block;
     line-height: 40px;
 }
 
 .hubungikami a {
-    color: white;
+    color: #000;
     display: block;
     line-height: 40px;
 }
 
 h3 {
-    color: white;
+    color: #000;
     font-size: bold;
 }
 
@@ -356,4 +378,5 @@ h3 {
     margin-top: 80px;
     text-align: center;
     padding-bottom: 30px;
+    color: #000;
 }
