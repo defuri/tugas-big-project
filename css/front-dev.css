@@ -7,18 +7,21 @@
 
 .bungkus-nav {
     position: sticky;
+    -webkit-position: sticky;
     top: 0;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: #FFFFFF;
     border-bottom: 1px solid #CDCDCD;
 }
 
 nav {
+    position: sticky;
+    top: 0;
     width: 1360px;
     display: flex;
     justify-content: space-between;
-    background-color: white;   
+    background-color: #FFFFFF;   
 }
 
 nav:hover {
@@ -208,13 +211,17 @@ article blockquote {
     color: #1B1B1B;
 }
 
-/* daftar isi */
+/* daftar isi kanan*/
+
+.bungkus-daftar-isi {
+    top: 157px;
+    background-color: black;
+    position: sticky;
+}
 
 .daftar-isi {
     margin-left: 40px;
     width: 300px;
-    position: sticky;
-    top: 157px;
 }
 
 .daftar-isi h2 {

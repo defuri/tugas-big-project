@@ -20,8 +20,8 @@ a {
 .saran h3:hover {
     text-decoration: underline;
 }
-/* navbar disini */
 
+/* navbar disini */
 .bungkus-nav {
     position: sticky;
     top: 0;
@@ -163,15 +163,15 @@ nav ul a:hover {
 /* navbar selesai */
 
 /* pembungkus */
-
-.indung {
+.parent {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.wrapper {
+.child {
     display: flex;
+    justify-content: center;
     max-width: 1500px;
 }
 
@@ -348,4 +348,95 @@ article h3 {
 
 .handap h2 {
     font-size: 30px;
+}
+
+/* footer */
+#bungkus-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ff6961;
+    margin-top: 80px;
+}
+
+#container-footer {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ff6961;
+}
+
+footer {
+    width: 1200px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.kaki {
+    width: 98%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.kaki a {
+    text-decoration: none;
+}
+
+.kaki a:hover {
+    animation: zoom ease-in-out .5s infinite;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.produk a {
+    color: #000;
+    display: block;
+    line-height: 40px;
+}
+
+.informasi a {
+    color: #000;
+    display: block;
+    line-height: 40px;
+}
+
+.hubungikami a {
+    color: #000;
+    display: block;
+    line-height: 40px;
+}
+
+h3 {
+    color: #000;
+    font-size: bold;
+}
+
+.footimage {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.kopirek {
+    margin-top: 80px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #000;
 }

@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../../images/logo.png">
-    <link rel="stylesheet" href="../../css/javascript/01.css">
+    <link rel="stylesheet" href="../css/01.css" />
     <title>In a Nutshell: Javascript "Organ" Sebuah Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!-- roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> <!-- open sans-->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
@@ -18,6 +18,7 @@
 
 <body>
     <!-- navbar -->
+
     <div class="bungkus-nav">
         <nav>
             <div>
@@ -51,8 +52,8 @@
     <div class="bungkus-bawah">
         <div class="bawah">
             <div>
-                <a href="../index.html">Home</a> <img src="../../images/angle-right-11-512.png" alt="tanda panah" />
-                <a href="../front-dev.html">Frontend Developer</a> <img src="../../images/angle-right-11-512.png"
+                <a href="../index.html">Home</a> <img src="../images/angle-right-11-512.png" alt="tanda panah" />
+                <a href="../front-dev.html">Frontend Developer</a> <img src="../images/angle-right-11-512.png"
                     alt="tanda panah" /> <a href="01.html">Javascript</a>
             </div>
 
@@ -68,8 +69,9 @@
         </div>
     </div>
 
-    <div class="indung">
-        <div class="wrapper">
+
+    <div class="parent"> <!-- body -->
+        <div class="child">
             <!-- daftar isi sebelah kiri -->
             <aside>
                 <div class="bungkus-saran">
@@ -77,7 +79,7 @@
                         <a href="#">
                             <h3>Panduan Lengkap Dimulai Disini!</h3>
                         </a>
-                            <a href="#" style="font-size: 14px; margin-left: 15px;">Memulai dengan web</a>
+                        <a href="#" style="font-size: 14px; margin-left: 15px;">Memulai dengan web</a>
 
                         <a href="#">
                             <h3>HTML -- Fondasi Website</h3>
@@ -167,7 +169,7 @@
                         </a>
                         <ul>
                             <li><a href="#">Pertanyaan umum</a></li>
-                            <br> 
+                            <br>
                         </ul>
                     </div>
                 </div>
@@ -366,17 +368,69 @@
                 <div class="daftar-isi">
                     <h2>Dalam artikel ini</h2>
                     <div class="list">
-                            <a href="#"><p>Prasyarat</p></a>
-                            <a href="#"><p>Modul</p></a>
-                            <a href="#"><p>Menyelesaikan masalah umum javascript</p></a>
-                            <a href="#"><p>Lihat juga</p></a>
-                            <br />
+                        <a href="#">
+                            <p>Prasyarat</p>
+                        </a>
+                        <a href="#">
+                            <p>Modul</p>
+                        </a>
+                        <a href="#">
+                            <p>Menyelesaikan masalah umum javascript</p>
+                        </a>
+                        <a href="#">
+                            <p>Lihat juga</p>
+                        </a>
+                        <br />
                     </div>
                 </div>
             </aside>
+
+
         </div>
     </div>
 
+    <!-- footer -->
+    <div id="container-footer">
+        <footer>
+            <div class="kaki">
+                <img src="../images/logo.png" alt="In A Nutshell" width="10%" height="20%">
+                <div class="produk">
+                    <h3>Produk</h3><br>
+                    <a href="#">Explore</a>
+                    <a href="#">Cari Kreator</a>
+                    <a href="#">Buat Halaman</a>
+                    <a href="#">Fitur dan harga</a>
+                </div>
+                <div class="informasi">
+                    <h3>Informasi</h3><br>
+                    <a href="#">Tentang</a>
+                    <a href="#">Syarat dan Ketentuan</a>
+                    <a href="#">Bantuan</a>
+                    <a href="#">Kebijakan Privasi</a>
+                </div>
+                <div class="hubungikami">
+                    <h3>Hubungi Kami</h3><br>
+                    <a href="#">Karir</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Kritik dan Saran</a>
+                </div>
+                <div class="socialmedia">
+                    <h3>Social Media</h3><br>
+                    <div class="footimage">
+                        <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #000;"></i></a>
+                    </div>
+                    <h3>Community</h3><br>
+                    <div class="footimage">
+                        <a href="#"><i class="fa-brands fa-discord fa-xl" style="color: #000;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h3 class="kopirek"><i class="fa-regular fa-copyright fa-sm" style="color: #000;"></i> PT Muhammad
+                Ghazwan 2023.</h3>
+        </footer>
+    </div>
 </body>
 
 </html>
