@@ -181,15 +181,15 @@ nav ul a:hover {
     position: sticky;
     top: 100px;
     margin-top: 2px;
-    margin-bottom: 2px;
+    margin-bottom: 0;
 }
 
 .saran {
-    margin-top: 30px;
-    margin-left: 25px;
+    margin-top: 0;
+    margin-left: 0;
     overflow: scroll;
-    width: 300px;
-    height: 550px;
+    width: 320px;
+    height: 580px;
 }   
 
 .saran a:hover {
@@ -222,11 +222,44 @@ nav ul a:hover {
 .saran ul li {
     margin-bottom: 15px
 }
-/* daftar isi kanan */
-.daftar_isi {
+
+
+/* daftar isi kanan*/
+
+.daftar-isi {
+    margin-left: 40px;
+    width: 300px;
     position: sticky;
-    top: 100px;
-    width: 250px;
+    top: 140px;
+}
+
+.daftar-isi h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #1B1B1B;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.list {
+    display: inline-table;
+    border-left: 2px solid grey;
+}
+
+.list p {
+    font-family: 'Roboto', sans-serif;
+    color: #4D4D4D;
+    font-size: 14px;
+    margin: 20px 0 0 25px;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.daftar-isi .list a p:hover {
+    color: #1A73E8;
 }
 
 /* artikel */
