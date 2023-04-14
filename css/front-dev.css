@@ -302,20 +302,49 @@ article blockquote {
     width: 5px;
 }
 
-/* rekomendasi postingan */
-.rekomendasi_postingan {
+.bungkus-lihat {
     display: flex;
     justify-content: center;
 }
 
-.pembungkus-rekomendasi {
-    border: 1px solid black;
-    width: 1378px;
+.lihat {
+    width: 1355px;
 }
 
-.pembungkus-rekomendasi div {
-    width: 250px;
+.lihat h1 {
+    margin-left: 40px;
+    margin-bottom: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
 }
+
+/* rekomendasi postingan */
+.pembungkus-rekomendasi {
+    display: flex;
+    justify-content: center;
+}
+
+.pembungkus-rekomendasi img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.baris-1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1376px;
+}
+
+.baris-1 .satu, .dua, .tiga {
+    width: 390px;
+    border: 1px solid #4D4D4D;
+    border-radius: 25px;
+}
+
+.konten {
+    margin: 25px;
+}
+
 /* footer */
 #bungkus-footer {
     display: flex;
