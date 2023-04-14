@@ -93,13 +93,15 @@
                 yang bermanfaat di sini untuk berlatih.</p>
 
             <p>Sumber daya ini dibuat oleh perusahaan dan pengembang web yang berpikiran maju yang telah menggunakan
-                standar terbuka dan praktik terbaik untuk pengembangan web dan yang menyediakan atau mengizinkan
-                penerjemahan, melalui lisensi konten terbuka seperti Creative Commons.</p>
+                standar terbuka dan praktik terbaik untuk pengembangan web dan <span id="untuk">yang</span> menyediakan
+                atau mengizinkan
+                penerjemahan, melalui lisensi konten terbuka seperti Creative Commonns.</p>
 
             <h2>Untuk orang awam yang baru mengenal Web</h2>
             <a href="#">Memulai dengan Web</a>
 
-            <blockquote>Memulai dengan Web adalah seri ringkas yang memperkenalkan Anda pada dasar-dasar pengembangan
+            <blockquote>Memulai dengan Web adalah <span id="html">seri</span> ringkas yang memperkenalkan Anda pada
+                dasar-dasar pengembangan
                 web. Anda akan menyiapkan alat yang Anda butuhkan untuk membuat halaman web sederhana dan
                 mempublikasikan aplikasi Anda sendiri.</blockquote>
 
@@ -154,10 +156,9 @@
                 produk, dan banyak lagi. Modul ini membantu Anda memulai dengan membuat bagian sisi klien dari formulir.
             </p>
 
-            <a href="#">Tips untuk membuat halaman HTML yang loadingnya cepat</a>
+            <a href="#">Tips <span id="css">untuk</span> membuat halaman HTML yang loadingnya cepat</a>
             <p>Optimalkan halaman web untuk menyediakan situs yang lebih responsif bagi pengunjung dan mengurangi beban
-                pada
-                server web dan koneksi Internet Anda.</p>
+                pada server web dan koneksi Internet Anda.</p>
 
             <!-- tutorial CSS -->
 
@@ -245,6 +246,7 @@
             <a href="#">Transisi CSS</a>
             <p>Transisi CSS menyediakan cara untuk menghidupkan perubahan pada properti CSS, alih-alih membuat perubahan
                 tersebut berlaku secara instan.</p>
+            <span id="javascript" style="margin-top: 30px;"> <br /></span>
 
             <a href="#">Canvas Tutorial</a>
             <p>Pelajari cara menggambar grafik menggunakan skrip elemen kanvas.</p>
@@ -393,16 +395,16 @@
                 <div class="daftar-isi">
                     <h2>Dalam artikel ini</h2>
                     <div class="list">
-                        <a href="#">
+                        <a href="#untuk">
                             <p>Untuk orang awam yang baru mengenal web</p>
                         </a>
-                        <a href="#">
+                        <a href="#html">
                             <p>Tutorial HTML</p>
                         </a>
-                        <a href="#">
+                        <a href="#css">
                             <p>Tutorial CSS</p>
                         </a>
-                        <a href="01.html">
+                        <a href="#javascript">
                             <p>Tutorial Javascript</p>
                         </a>
                         <br />
@@ -412,48 +414,70 @@
         </aside>
     </div>
 
-    <!-- footer -->
-    <div id="container-footer">
-        <footer>
-            <div class="kaki">
-                <img src="../images/logo.png" alt="In A Nutshell" width="10%" height="20%">
-                <div class="produk">
-                    <h3>Produk</h3><br>
-                    <a href="#">Explore</a>
-                    <a href="#">Cari Kreator</a>
-                    <a href="#">Buat Halaman</a>
-                    <a href="#">Fitur dan harga</a>
-                </div>
-                <div class="informasi">
-                    <h3>Informasi</h3><br>
-                    <a href="#">Tentang</a>
-                    <a href="#">Syarat dan Ketentuan</a>
-                    <a href="#">Bantuan</a>
-                    <a href="#">Kebijakan Privasi</a>
-                </div>
-                <div class="hubungikami">
-                    <h3>Hubungi Kami</h3><br>
-                    <a href="#">Karir</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Kritik dan Saran</a>
-                </div>
-                <div class="socialmedia">
-                    <h3>Social Media</h3><br>
-                    <div class="footimage">
-                        <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #000;"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #000;"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #000;"></i></a>
+    <!-- rekomendasi postingan-->
+
+    <div class="rekomendasi_postingan">
+        <div class="rekomendasi_javascript">
+            <img src="../images/ilustrasi-js.png" alt="Ilustrasi Javascript" />
+            <h3>Javascript: Populer dan Fleksibel</h3>
+            <p>JavaScript adalah bahasa pemrograman tingkat tinggi yang digunakan untuk membuat aplikasi web interaktif
+                dan dinamis. Bahasa pemrograman ini pertama kali dirilis pada tahun 1995 dan sejak saat itu telah
+                menjadi salah satu bahasa pemrograman paling populer di dunia. JavaScript sering digunakan untuk membuat
+                efek animasi, validasi formulir, kontrol tampilan halaman web, dan banyak lagi. JavaScript sangat
+                fleksibel dan dapat digunakan di berbagai platform, termasuk desktop, perangkat seluler, dan server.
+                Bahasa pemrograman ini memiliki sintaks yang sederhana dan mudah dipelajari, dan memiliki dukungan
+                komunitas yang besar dan aktif yang selalu membantu pengembang dalam memecahkan masalah dan memperluas
+                kemampuan bahasa.</p>
+        </div>
+
+        <div class="rekomendasi_cpp">
+            <img src="../images/ilustrasi-cpp.png" alt="Ilustrasi C++" />
+            <h3>Mengenal C++: Bahasa Pemrograman Fleksibel untuk Pengembangan Aplikasi dan Game</h3>
+            <p>C++ adalah bahasa pemrograman komputer tingkat menengah yang digunakan untuk mengembangkan aplikasi sistem, game, dan perangkat lunak berorientasi objek. Bahasa pemrograman ini dikembangkan pada tahun 1980-an dan merupakan pengembangan dari bahasa C. C++ memiliki sintaks yang lebih kompleks daripada bahasa C, tetapi dengan kemampuan tambahan seperti dukungan untuk penggunaan kelas dan objek, operator overload, dan inheritance, membuat bahasa ini lebih fleksibel dan dapat digunakan dalam banyak jenis aplikasi. C++ juga memiliki kinerja yang sangat cepat karena kode yang dihasilkan biasanya langsung diterjemahkan menjadi bahasa mesin, sehingga membuat bahasa pemrograman ini menjadi pilihan populer bagi pengembang yang membutuhkan performa yang tinggi.</p>
+        </div>
+
+        <!-- footer -->
+        <div id="container-footer">
+            <footer>
+                <div class="kaki">
+                    <img src="../images/logo.png" alt="In A Nutshell" width="10%" height="20%">
+                    <div class="produk">
+                        <h3>Produk</h3><br>
+                        <a href="#">Explore</a>
+                        <a href="#">Cari Kreator</a>
+                        <a href="#">Buat Halaman</a>
+                        <a href="#">Fitur dan harga</a>
                     </div>
-                    <h3>Community</h3><br>
-                    <div class="footimage">
-                        <a href="#"><i class="fa-brands fa-discord fa-xl" style="color: #000;"></i></a>
+                    <div class="informasi">
+                        <h3>Informasi</h3><br>
+                        <a href="#">Tentang</a>
+                        <a href="#">Syarat dan Ketentuan</a>
+                        <a href="#">Bantuan</a>
+                        <a href="#">Kebijakan Privasi</a>
+                    </div>
+                    <div class="hubungikami">
+                        <h3>Hubungi Kami</h3><br>
+                        <a href="#">Karir</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Kritik dan Saran</a>
+                    </div>
+                    <div class="socialmedia">
+                        <h3>Social Media</h3><br>
+                        <div class="footimage">
+                            <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #000;"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #000;"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #000;"></i></a>
+                        </div>
+                        <h3>Community</h3><br>
+                        <div class="footimage">
+                            <a href="#"><i class="fa-brands fa-discord fa-xl" style="color: #000;"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <h3 class="kopirek"><i class="fa-regular fa-copyright fa-sm" style="color: #000;"></i> PT Muhammad
-                Ghazwan 2023.</h3>
-        </footer>
-    </div>
+                <h3 class="kopirek"><i class="fa-regular fa-copyright fa-sm" style="color: #000;"></i> PT Muhammad
+                    Ghazwan 2023.</h3>
+            </footer>
+        </div>
 </body>
 
 </html>
