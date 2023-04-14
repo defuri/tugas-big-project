@@ -220,7 +220,7 @@ article blockquote {
 /* daftar isi kanan*/
 
 .bungkus-daftar-isi {
-    top: 157px;
+    top: 159px;
     position: sticky;
 }
 
@@ -302,6 +302,20 @@ article blockquote {
     width: 5px;
 }
 
+/* rekomendasi postingan */
+.rekomendasi_postingan {
+    display: flex;
+    justify-content: center;
+}
+
+.pembungkus-rekomendasi {
+    border: 1px solid black;
+    width: 1378px;
+}
+
+.pembungkus-rekomendasi div {
+    width: 250px;
+}
 /* footer */
 #bungkus-footer {
     display: flex;
