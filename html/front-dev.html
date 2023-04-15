@@ -5,74 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/tutorial.css" media="all" />
+    <link rel="stylesheet" href="../css/front-dev.css" media="all" />
     <link rel="icon" href="../images/logo.png" />
     <title>In a Nutshell: Tutorial Front End Developer</title>
-
+    <script src="../js/script.js"></script>
     <!-- awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <!-- roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
+    <!-- open sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- mountserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- sans narrow -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
     <!-- navbar -->
+    <div class="parent-nav">
+        <div class="bungkus-nav">
+            <nav>
+                <div>
+                    <a href="index.html" id="logo">
+                        <h1>In a Nutshell</h1>
+                    </a>
 
-    <nav>
-        <div>
-            <a href="index.html">
-                <h1>In a Nutshell</h1>
-            </a>
+                    <ul>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        &ensp;
+                        <a href="#">
+                            <li>Tutorial</li>
+                        </a>
+                        &ensp;
+                        <a href="#">
+                            <li>Blog</li>
+                        </a>
+                    </ul>
+                </div>
 
-            <ul>
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                &ensp;
-                <a href="#">
-                    <li>Tutorial</li>
-                </a>
-                &ensp;
-                <a href="#">
-                    <li>Blog</li>
-                </a>
-            </ul>
+                <div class="nav-kanan">
+                    <a href="#">Log in</a>
+                    <a href="#"><button>Sign up</button></a>
+                </div>
+            </nav>
         </div>
 
-        <di class="nav-kanan">
-            <a href="#">Log in</a>
-            <a href="#"><button>Sign up</button></a>
+        <!-- ini untuk nav yang warna abu abu -->
+        <div class="bungkus-bawah">
+
+            <div class="bawah">
+                <div>
+                    <a href="index.html">Home</a> <img src="../images/angle-right-11-512.png" alt="tanda panah" /> <a
+                        href="front-dev.html">Frontend Developer</a>
+                </div>
+
+                <div class="bahasa">
+                    <i class="fa-solid fa-language" style="color: #03050a;"></i>
+                    <select name="bahasa" id="bahasa" onchange="window.location.href=this.value;">
+                        <option value="front-dev.html" selected>🇮🇩 Bahasa Indonesia</option>
+                        <option value="#">🇺🇸 English</option>
+                        <option value="#">🇨🇳 Mandarin</option>
+                        <option value="#">🇮🇳 Hindi</option>
+                    </select>
+                </div>
             </div>
-    </nav>
-
-    <div class="bawah">
-        <a href="index.html">Home</a> <img src="../images/angle-right-11-512.png" alt="tanda panah" /> <a
-            href="tutorial.html">Frontend Developer</a>
-
+        </div>
     </div>
 
+    <!-- artikel -->
+
+    <!-- saran artikel -->
     <div class="bungkus-artikel">
-
         <article>
-            <h1>Tutorial</h1>
-            <p>Tautan di halaman ini mengarah ke berbagai tutorial dan materi pelatihan. Baik Anda baru memulai,
-                mempelajari dasar-dasarnya, atau sudah berpengalaman dalam pengembangan web, Anda bisa menemukan sumber
-                daya
-                yang bermanfaat di sini untuk berlatih.</p>
+            <header>
+                <strong>
+                    <h1>Tutorial</h1>
+                </strong>
+                <p>Tautan di halaman ini mengarah ke berbagai tutorial dan materi pelatihan. Baik Anda baru memulai,
+                    mempelajari dasar-dasarnya, atau sudah berpengalaman dalam pengembangan web, Anda bisa menemukan
+                    sumber
+                    daya
+                    yang bermanfaat di sini untuk berlatih.</p>
 
-            <p>Sumber daya ini dibuat oleh perusahaan dan pengembang web yang berpikiran maju yang telah menggunakan
-                standar terbuka dan praktik terbaik untuk pengembangan web dan yang menyediakan atau mengizinkan
-                penerjemahan, melalui lisensi konten terbuka seperti Creative Commons.</p>
+                <p>Sumber daya ini dibuat oleh perusahaan dan pengembang web yang berpikiran maju yang telah menggunakan
+                    standar terbuka dan praktik terbaik untuk pengembangan web dan <span id="untuk">yang</span>
+                    menyediakan
+                    atau mengizinkan
+                    penerjemahan, melalui lisensi konten terbuka seperti Creative Commonns.</p>
 
-            <h2>Untuk orang awam yang baru mengenal Web</h2>
-            <a href="#">Memulai dengan Web</a>
+                <h2>Untuk orang awam yang baru mengenal Web</h2>
+                <a href="#">Memulai dengan Web</a>
 
-            <blockquote>Memulai dengan Web adalah seri ringkas yang memperkenalkan Anda pada dasar-dasar pengembangan
-                web. Anda akan menyiapkan alat yang Anda butuhkan untuk membuat halaman web sederhana dan
-                mempublikasikan aplikasi Anda sendiri.</blockquote>
+                <blockquote>Memulai dengan Web adalah <span id="html">seri</span> ringkas yang memperkenalkan Anda pada
+                    dasar-dasar pengembangan
+                    web. Anda akan menyiapkan alat yang Anda butuhkan untuk membuat halaman web sederhana dan
+                    mempublikasikan aplikasi Anda sendiri.</blockquote>
+            </header>
 
             <!-- tutorial HTML -->
             <h2>Tutorial HTML</h2>
@@ -85,14 +118,14 @@
                 cara membuat hyperlink, dan cara menggunakan HTML untuk menyusun halaman web.</p>
 
             <a href="#">
-                <p>Membuat Website Sederhana dengan HTML</p>
+                Membuat Website Sederhana dengan HTML
             </a>
 
             <p>Panduan HTML untuk pemula yang mencakup penjelasan tentang tag-tag umum, termasuk tag HTML. Juga termasuk
                 panduan langkah demi langkah untuk membuat halaman web dasar dengan contoh kodenya.</p>
 
             <a href="#">
-                <p>Tantangan HTML</p>
+                Tantangan HTML
             </a>
 
             <p>Gunakan tantangan ini untuk mengasah kemampuan HTML Anda (misalnya, "Haruskah saya menggunakan elemen
@@ -101,7 +134,7 @@
             <h3>Level Menengah</h3>
 
             <a href="#">
-                <p>Multimedia dan Embedding</p>
+                Multimedia dan Embedding
             </a>
 
             <p>Modul ini membahas cara menggunakan HTML untuk menyertakan multimedia di halaman web Anda, termasuk
@@ -110,7 +143,7 @@
             </p>
 
             <a href="#">
-                <p>Tabel HTML</p>
+                Tabel HTML
             </a>
             <p>Merepresentasikan data tabel pada halaman web dengan cara yang mudah dimengerti dan mudah diakses dapat
                 menjadi sebuah tantangan. Modul ini mencakup markup tabel dasar, bersama dengan fitur yang lebih
@@ -125,12 +158,13 @@
                 produk, dan banyak lagi. Modul ini membantu Anda memulai dengan membuat bagian sisi klien dari formulir.
             </p>
 
-            <a href="#">Tips untuk membuat halaman HTML yang loadingnya cepat</a>
+            <a href="#">Tips <span id="css">untuk</span> membuat halaman HTML yang loadingnya cepat</a>
             <p>Optimalkan halaman web untuk menyediakan situs yang lebih responsif bagi pengunjung dan mengurangi beban
-                pada
-                server web dan koneksi Internet Anda.</p>
+                pada server web dan koneksi Internet Anda.</p>
 
             <!-- tutorial CSS -->
+
+            <h2>Tutorial CSS</h2>
             <h3>Level Pemula</h3>
             <a href="#">Dasar CSS</a>
             <p>CSS (Cascading Style Sheets) adalah kode yang Anda gunakan untuk menata halaman web Anda. Dasar-dasar CSS
@@ -214,15 +248,17 @@
             <a href="#">Transisi CSS</a>
             <p>Transisi CSS menyediakan cara untuk menghidupkan perubahan pada properti CSS, alih-alih membuat perubahan
                 tersebut berlaku secara instan.</p>
+            <span id="javascript" style="margin-top: 30px;"> <br /></span>
 
             <a href="#">Canvas Tutorial</a>
             <p>Pelajari cara menggambar grafik menggunakan skrip elemen kanvas.</p>
 
             <!-- tutorial javascript -->
+
             <h2>Tutorial Javascript</h2>
             <h3>Level Pemula</h3>
 
-            <a href="#">Langkah Pertama Javascript</a>
+            <a href="01.html">Langkah Pertama Javascript</a>
             <p>Dalam modul JavaScript pertama kami, pertama-tama kami akan menjawab beberapa pertanyaan mendasar seperti
                 "apa itu JavaScript?", "seperti apa JavaScript itu?", dan "apa yang dapat dilakukannya?", sebelum
                 melanjutkan untuk membawa Anda melalui pengalaman praktis pertama Anda dalam menulis JavaScript. Setelah
@@ -277,7 +313,7 @@
             <a href="#">Pentingnya Pola Desain JavaScript</a>
             <p>Pengenalan pola desain JavaScript yang penting.</p>
 
-            <a href="#">JavaScript.info - Tutorial JavaScript Modern</a>
+            <a href="01.html">JavaScript.info - Tutorial JavaScript Modern</a>
             <p>Part 1: Bahasa. Part 2: Bekerja dengan Browser.</p>
 
             <h3>Level Lanjutan</h3>
@@ -316,26 +352,130 @@
                 perubahan.
                 API ini juga sepenuhnya kompatibel dengan Firefox multiproses.</p>
 
-            <div>
+            <!-- box bawah -->
+
+            <div class="masalah">
                 <h2>Menemukan Masalah pada laman ini?</h2>
-                <ul>
-                    <a href="#">
-                        <li>Edit laman di Github</li>
-                    </a>
-                    <a href="#">
-                        <li>Lapor Masalah Konten</li>
-                    </a>
-                    <a href="#">
-                        <li>Lihat Sumber Daya di Github</li>
-                    </a>
+                <ol>
+                    <img src="../images/hitam.png" alt="lingkaran hitam" />
+                    <li>
+                        &ensp;
+                        <a href="#">
+                            Edit laman di Github
+                        </a>
+                    </li>
 
-                    <p>Ingin terlibat lebih jauh? <a href="#">Belajar bagaimana berkontribusi</a></p>
-                </ul>
+                    <img src="../images/hitam.png" alt="lingkaran hitam" />
+                    <li>
+                        &ensp;
+                        <a href="#">
+                            Lapor Masalah Konten
+                        </a>
+                    </li>
+
+
+                    <img src="../images/hitam.png" alt="lingkaran hitam" />
+                    <li>
+                        &ensp;
+                        <a href="#">
+                            Lihat Sumber Daya di Github
+                        </a>
+                    </li>
+                </ol>
+
+                <br />
+                <p style="margin-left: 10px;">Ingin terlibat lebih jauh? <a href="#">Belajar bagaimana berkontribusi</a>
+                </p>
             </div>
-
         </article>
+
+        <!-- daftar isi -->
+
+        <aside>
+            <div class="bungkus-daftar-isi">
+                <div class="daftar-isi">
+                    <h2>Dalam artikel ini</h2>
+                    <div class="list">
+                        <a href="#untuk">
+                            <p>Untuk orang awam yang baru mengenal web</p>
+                        </a>
+                        <a href="#html">
+                            <p>Tutorial HTML</p>
+                        </a>
+                        <a href="#css">
+                            <p>Tutorial CSS</p>
+                        </a>
+                        <a href="#javascript" id="komentar">
+                            <p>Tutorial Javascript</p>
+                        </a>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </aside>
     </div>
 
+    <div class="bungkus-komentar">
+        <div class="komentar">
+            <h3>komentar</h3>
+            <a href="#komentar" class="hias-komentar" id="website-kami">Website Kami</a>&emsp;<a href="#" class="hias-komentar"><i class="fa-brands fa-facebook fa-lg" style="color: #000000;"></i> Facebook</a>
+            <hr noshade />
+            <h2>Tinggalkan Sebuah Pesan</h2>
+            <img src="../images/user.png" alt="logo user" />
+            <p>Alamat email anda tidak akan dipublikasi. Semua informasi yang dibutuhkan ditandai *</p>
+            <form action="#" method="post">
+                <textarea name="komentar" cols="80" rows="30" placeholder="Tinggalkan Komentar"></textarea>
+                <input type="text" name="nama" maxlength="40" placeholder="Nama" required>
+                <input type="email" name="email" maxlength="40" required>
+                <input type="text" name="website" maxlength="40">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Kirim">
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="container-footer">
+        <footer>
+            <div class="kaki">
+                <img src="../images/logo.png" alt="In A Nutshell" width="10%" height="20%">
+                <div class="produk">
+                    <h3>Produk</h3><br>
+                    <a href="#">Explore</a>
+                    <a href="#">Cari Kreator</a>
+                    <a href="#">Buat Halaman</a>
+                    <a href="#">Fitur dan harga</a>
+                </div>
+                <div class="informasi">
+                    <h3>Informasi</h3><br>
+                    <a href="#">Tentang</a>
+                    <a href="#">Syarat dan Ketentuan</a>
+                    <a href="#">Bantuan</a>
+                    <a href="#">Kebijakan Privasi</a>
+                </div>
+                <div class="hubungikami">
+                    <h3>Hubungi Kami</h3><br>
+                    <a href="#">Karir</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Kritik dan Saran</a>
+                </div>
+                <div class="socialmedia">
+                    <h3>Social Media</h3><br>
+                    <div class="footimage">
+                        <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #000;"></i></a>
+                    </div>
+                    <h3>Community</h3><br>
+                    <div class="footimage">
+                        <a href="#"><i class="fa-brands fa-discord fa-xl" style="color: #000;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h3 class="kopirek"><i class="fa-regular fa-copyright fa-sm" style="color: #000;"></i> PT Muhammad
+                Ghazwan 2023.</h3>
+        </footer>
+    </div>
 </body>
 
 </html>

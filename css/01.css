@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.saran a {
+    color: #4E4E4E;
+    font-family: 'Roboto', sans-serif;
+}
+
+.saran h3 {
+    font-size: 17px;
+}
+
+.saran h3:hover {
+    text-decoration: underline;
+}
+
+/* navbar disini */
+
+.kontainer-nav {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+}
+
+.bungkus-nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #CDCDCD;
+    background-color: white;
+}
+
+nav {
+    width: 1360px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav:hover {
+    cursor: default;
+}
+
+nav h1 {
+    font-family: sans-serif;
+    display: inline-flex;
+    color: black;
+    margin: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    margin: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+nav ul a:hover {
+    color: #1A73E8;
+    background-color: #E3EEFC;
+    border-radius: 5px;
+}
+
+.nav-kanan {
+    display: flex;
+    align-items: center;
+}
+
+.nav-kanan a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.nav-kanan a:hover {
+    text-decoration: underline;
+}
+
+.nav-kanan a:active {
+    text-decoration: none;
+}
+
+.nav-kanan button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-kanan button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+}
+
+.nav-kanan button:active {
+    color: white;
+    background-color: #000000;
+}
+
+.bungkus-bawah {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 63px;
+    width: 100%;
+    z-index: 200;
+    background-color: whitesmoke;
+    border-bottom: 1px solid #CDCDCD;
+}
+
+.bawah {
+    display: flex;
+    justify-content: space-between;
+    width: 1330px;
+    color: #4D4D4D;
+    padding: 7px;
+}
+
+.bawah:hover {
+    cursor: default;
+}
+
+.bawah a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #4D4D4D;
+}
+
+.bawah img {
+    width: 20px;
+    margin-bottom: -5px;
+}
+
+.bawah select:hover {
+    cursor: pointer;
+}
+
+.bawah select:hover {
+    cursor: pointer;
+}
+
+#logo {
+    text-decoration: none;
+}
+
+/* navbar selesai */
+
+/* pembungkus */
+.parent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+}
+
+/* daftar isi kiri */
+
+.bungkus-saran {
+    position: sticky;
+    top: 100px;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.saran {
+    margin-top: 0;
+    margin-left: 0;
+    overflow: scroll;
+    width: 320px;
+    height: 580px;
+}
+
+.saran a:hover {
+    text-decoration: underline;
+}
+
+.saran h3 {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+.saran img {
+    width: 7px;
+    margin-right: 5px;
+}
+
+.saran {
+    list-style: url(../../images/segitiga.png);
+}
+
+.saran ul {
+    margin-left: 30px;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.saran ul li {
+    margin-bottom: 15px
+}
+
+
+/* daftar isi kanan*/
+
+.daftar-isi {
+    margin-left: 40px;
+    width: 300px;
+    position: sticky;
+    top: 140px;
+}
+
+.daftar-isi h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #1B1B1B;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.list {
+    display: inline-table;
+    border-left: 2px solid grey;
+}
+
+.list p {
+    font-family: 'Roboto', sans-serif;
+    color: #4D4D4D;
+    font-size: 14px;
+    margin: 20px 0 0 25px;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.daftar-isi .list a p:hover {
+    color: #1A73E8;
+}
+
+/* artikel */
+.bungkus-artikel {
+    margin: 37px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bungkus-artikel h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.bungkus-artikel p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.bungkus-artikel .bungkus_kotak {
+    background-color: #F9F9FB;
+    border: 1px solid #CDCDCD;
+    border-radius: 5px;
+}
+
+article a {
+    text-decoration: underline;
+    color: #1A73E8;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.kotak {
+    margin: 30px 40px 30px 30px;
+}
+
+.kotak h2 {
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.kotak p {
+    font-size: 15px;
+}
+
+.kotak a {
+    font-weight: bold;
+}
+
+.bungkus_kotak {
+    margin-bottom: 45px;
+}
+
+article ul {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+article ul li {
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.bungkus-kotak {
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+.bungkus-kotak p {
+    font-size: 17px;
+}
+
+article h3 {
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.tutorial p {
+    margin-left: 30px;
+}
+
+.handap h2 {
+    font-size: 30px;
+}
+
+/* footer */
+#bungkus-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ff6961;
+    margin-top: 80px;
+}
+
+#container-footer {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ff6961;
+}
+
+footer {
+    width: 1200px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.kaki {
+    width: 98%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.kaki a {
+    text-decoration: none;
+}
+
+.kaki a:hover {
+    animation: zoom ease-in-out .5s infinite;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.produk a {
+    color: #000;
+    display: block;
+    line-height: 40px;
+}
+
+.informasi a {
+    color: #000;
+    display: block;
+    line-height: 40px;
+}
+
+.hubungikami a {
+    color: #000;
+    display: block;
+    line-height: 40px;
+}
+
+h3 {
+    color: #000;
+    font-size: bold;
+}
+
+.footimage {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.kopirek {
+    margin-top: 80px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #000;
+}

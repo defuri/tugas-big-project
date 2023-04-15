@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../images/logo.png">
+    <link rel="stylesheet" href="../css/01.css" />
+    <title>In a Nutshell: Javascript "Organ" Sebuah Website</title>
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!-- roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> <!-- open sans-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+    <!-- noto sans -->
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <div class="kontainer-nav">
+        <div class="bungkus-nav">
+            <nav>
+                <div>
+                    <a href="index.html" id="logo">
+                        <h1>In a Nutshell</h1>
+                    </a>
+
+                    <ul>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        &ensp;
+                        <a href="#">
+                            <li>Tutorial</li>
+                        </a>
+                        &ensp;
+                        <a href="#">
+                            <li>Blog</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="nav-kanan">
+                    <a href="#">Log in</a>
+                    <a href="#"><button>Sign up</button></a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- nav abu abu -->
+    <div class="bungkus-bawah">
+        <div class="bawah">
+            <div>
+                <a href="index.html">Home</a> <img src="../images/angle-right-11-512.png" alt="tanda panah" />
+                <a href="front-dev.html">Frontend Developer</a> <img src="../images/angle-right-11-512.png"
+                    alt="tanda panah" /> <a href="01.html">Javascript</a>
+            </div>
+
+            <div class="bahasa">
+                <i class="fa-solid fa-language" style="color: #03050a;"></i>
+                <select name="bahasa" id="bahasa" onchange="window.location.href=this.value;">
+                    <option value="01.html" selected>🇮🇩 Bahasa Indonesia</option>
+                    <option value="#">🇺🇸 English</option>
+                    <option value="#">🇨🇳 Mandarin</option>
+                    <option value="#">🇮🇳 Hindi</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="parent"> <!-- body -->
+        <div class="child">
+            <!-- daftar isi sebelah kiri -->
+            <aside>
+                <div class="bungkus-saran">
+                    <div class="saran">
+                        <a href="#">
+                            <h3>Panduan Lengkap Dimulai Disini!</h3>
+                        </a>
+                        <a href="#" style="font-size: 14px; margin-left: 15px;">Memulai dengan web</a>
+
+                        <a href="#">
+                            <h3>HTML -- Fondasi Website</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">Pengenalan HTML</a></li>
+                            <li><a href="#">Multimedia dan embedding</a></li>
+                            <li><a href="#">Tabel HTML</a></li>
+                        </ul>
+
+                        <a href="#">
+                            <h3>CSS -- Menghias Website</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">Pengenalan CSS</a></li>
+                            <li><a href="#">Struktur dasar CSS</a></li>
+                            <li><a href="#">Menghias text</a></li>
+                            <li><a href="#">Layout CSS</a></li>
+                        </ul>
+
+                        <a href="#">
+                            <h3>Javascript -- Untuk Pemula</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">Pengenalan javascript</a></li>
+                            <li><a href="#">Struktur javascript</a></li>
+                            <li><a href="#">Perkenalan Objek javascript</a></li>
+                            <li><a href="#">Asinkron javascript</a></li>
+                            <li><a href="#">Web API sisi klien</a></li>
+                        </ul>
+
+                        <a href="#">
+                            <h3>Web Form -- Bekerja dengan Data Pengguna</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">Jalur belajar core form</a></li>
+                            <li><a href="#">Form artikel tingkat lanjut</a></li>
+                        </ul>
+
+                        <a href="#">
+                            <h3>Aksesibilitas -- Membuat Website Kita Bisa Diakses Siapa saja</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">Panduan aksesibilitas</a></li>
+                        </ul>
+
+                        <a href="#">
+                            <h3>Performa -- Membuat Website Menjadi Cepat dan Responsif</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">Panduan performa</a></li>
+                        </ul>
+
+                        <a href="#">
+                            <h3>MathML -- Menulis matematika dengan MathML</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">Langkah pertama MathML</a></li>
+                        </ul>
+
+                        <a href="#">
+                            <h3>Alat dan Testing</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">Alat pengembangan web sisi klien</a></li>
+                            <li><a href="#">Pengenalan ke framework sisi klien</a></li>
+                            <li><a href="#">React</a></li>
+                            <li><a href="#">Ember</a></li>
+                            <li><a href="#">Vue</a></li>
+                            <li><a href="#">Svelte</a></li>
+                            <li><a href="#">Angular</a></li>
+                            <li><a href="#">Git and Github</a></li>
+                            <li><a href="#">Cross Browser Testing</a></li>
+                        </ul>
+
+                        <a href="#">
+                            <h3>Server-side website programming</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">Langkah pertama</a></li>
+                            <li><a href="#">Framework web django (Python)</a></li>
+                            <li><a href="#">Ekspress framework web (node.js/javascript)</a></li>
+                        </ul>
+
+                        <a href="#">
+                            <h3>Sumber Daya Lebih Lanjut</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">Pertanyaan umum</a></li>
+                            <br>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+
+
+            <!-- artikel -->
+            <article>
+                <div class="bungkus-artikel">
+                    <h2>Belajar Javascript Untuk Pemula</h2>
+
+                    <p><a href="01.html">Javascript</a> adalah bahasa pemrograman yang memungkinkan Anda
+                        mengimplementasikan
+                        fungsi yang kompleks pada halaman web. Setiap kali halaman web melakukan lebih dari sekadar
+                        duduk di
+                        sana dan menampilkan informasi statis untuk Anda lihat-menampilkan pembaruan konten yang tepat
+                        waktu,
+                        peta interaktif, grafik animasi 2D/3D, kotak video bergulir, atau lebih banyak lagi-Anda dapat
+                        bertaruh
+                        bahwa JavaScript mungkin terlibat.</p>
+
+                    <div class="bungkus_kotak">
+                        <div class="kotak">
+                            <h2>Ingin Menjadi Front End Developer?</h2>
+                            <p>Kami telah menyusun kursus yang mencakup semua informasi penting yang Anda butuhkan untuk
+                                mencapai
+                                tujuan Anda.</p>
+                            <a href="#" id="prasyarat">Ayo Mulai!</a>
+                        </div>
+                    </div>
+
+                    <h2>Prasyarat</h2>
+                    <p>JavaScript bisa dibilang lebih sulit untuk dipelajari daripada bahasa markup lain seperti HTML
+                        dan CSS.
+                        Sebelum mencoba belajar JavaScript, Anda sangat disarankan untuk mengenal setidaknya dua
+                        teknologi ini
+                        terlebih dahulu, dan mungkin teknologi lainnya. Mulailah dengan mempelajari modul-modul berikut
+                        ini:</p>
+
+                    <ul>
+                        <li><a href="#">Memulai dengan Website</a></li>
+                        <li><a href="#">Perkenalan HTML</a></li>
+                        <li><a href="#">Perkenalan CSS</a></li>
+                    </ul>
+
+                    <p style="margin-bottom: 20px;">Mempunyai pengalaman sebelumnya dengan bahasa pemrograman lainnya
+                        juga sangat berguna</p>
+                    <p>Setelah merasa familiar dengan dasar - dasar javascript, kamu sebaiknya di posisi untuk belajar
+                        dengan
+                        tingkat yang lebih lanjut seperti:
+                    </p>
+
+                    <ul>
+                        <li id="modul">Javascript secara mendalam, seperti yang diajarkan, dalam <a href="#">panduan javascript</a>
+                            kami
+                        </li>
+                        <li><a href="#">Web API</a></li>
+                    </ul>
+
+                    <h2 style="margin-top: 50px">Modul</h2>
+
+                    <div class="bungkus-kotak">
+
+                        <div class="kotak">
+                            <strong>
+                                <p style="margin-bottom: 20px;">Kebijakan kami tentang JavaScript modern</p>
+                            </strong>
+                            <p>JavaScript adalah bahasa yang terus berkembang dan telah banyak berubah selama
+                                bertahun-tahun.
+                                Khususnya, edisi ke-6 dari bahasa ini (kadang-kadang dikenal sebagai ECMAScript 2015
+                                atau
+                                ES6), yang
+                                diperkenalkan pada tahun 2015, menambahkan banyak fitur baru. Pada saat yang sama, untuk
+                                menjaga
+                                kompatibilitas dengan situs web lama, fitur-fitur lama dari bahasa ini tetap
+                                dipertahankan,
+                                bahkan
+                                ketika fitur-fitur tersebut sudah tidak lagi dianggap sebagai praktik yang baik.</p>
+                            <p>Kami berpikir bahwa fitur-fitur yang ditambahkan ke JavaScript di ECMAScript 2015 dan
+                                versi
+                                selanjutnya memungkinkan para pengembang untuk menulis kode yang lebih mudah dibaca,
+                                dapat
+                                diandalkan, dan ekspresif, dan penting untuk mempelajarinya.</p>
+                        </div>
+                    </div>
+
+                    <p>Fitur-fitur yang kami ajarkan dalam kursus ini stabil dan telah didukung oleh semua
+                        browser utama selama beberapa tahun.</p>
+
+                    <!-- tutorial disini -->
+                    <div class="tutorial">
+
+                        <h3><a href="#">Langkah Pertama Javascript</a></h3>
+                        <p>Dalam modul JavaScript pertama kami, pertama-tama kami akan menjawab beberapa pertanyaan
+                            mendasar
+                            seperti "apa itu JavaScript?", "seperti apa JavaScript itu?", dan "apa yang dapat
+                            dilakukannya?",
+                            sebelum melanjutkan untuk membawa Anda melalui pengalaman praktis pertama Anda dalam menulis
+                            JavaScript. Setelah itu, kita akan membahas beberapa fitur utama JavaScript secara detail,
+                            seperti
+                            variabel, string, angka, dan array.</p>
+
+                        <h3><a href="#">Blok Pembangun Javascript</a></h3>
+                        <p>Dalam modul ini, kita akan melanjutkan cakupan semua fitur dasar utama JavaScript, dengan
+                            mengalihkan
+                            perhatian kita ke jenis blok kode yang sering ditemui seperti pernyataan bersyarat,
+                            perulangan,
+                            fungsi,
+                            dan peristiwa. Anda telah melihat hal-hal ini dalam kursus, tetapi hanya secara sepintas -
+                            di
+                            sini kita
+                            akan membahas semuanya secara eksplisit.</p>
+
+                        <h3><a href="#">Memperkenalkan Objek Javascript</a></h3>
+                        <p>Dalam JavaScript, hampir semua hal adalah objek, mulai dari fitur inti JavaScript seperti
+                            string
+                            dan
+                            array hingga API browser yang dibangun di atas JavaScript. Anda bahkan dapat membuat objek
+                            Anda
+                            sendiri
+                            untuk merangkum fungsi dan variabel terkait ke dalam paket yang efisien. Sifat JavaScript
+                            yang
+                            berorientasi objek sangat penting untuk dipahami jika Anda ingin melangkah lebih jauh dengan
+                            pengetahuan
+                            Anda tentang bahasa ini dan menulis kode yang lebih efisien, oleh karena itu kami
+                            menyediakan
+                            modul ini
+                            untuk membantu Anda. Di sini kami akan mengajarkan teori objek dan sintaksis secara detail,
+                            melihat cara
+                            membuat objek Anda sendiri, dan menjelaskan apa itu data JSON dan bagaimana cara
+                            menggunakannya.
+                        </p>
+
+                        <h3><a href="#">Javascript Asinkron</a></h3>
+                        <p>Dalam modul ini kita akan membahas JavaScript asinkron, mengapa JavaScript asinkron itu
+                            penting,
+                            dan
+                            bagaimana JavaScript asinkron dapat digunakan untuk menangani potensi pemblokiran secara
+                            efektif,
+                            seperti mengambil sumber daya dari server.</p>
+
+                        <h3><a href="#">Web API Sisi Klien</a></h3>
+                        <p>Ketika menulis JavaScript sisi klien untuk situs web atau aplikasi, Anda tidak akan melangkah
+                            lebih jauh
+                            sebelum mulai menggunakan API - antarmuka untuk memanipulasi berbagai aspek peramban dan
+                            sistem
+                            operasi
+                            tempat situs tersebut berjalan, atau bahkan data dari situs web atau layanan lain. Dalam
+                            modul
+                            ini kita
+                            akan mempelajari apa itu API, dan bagaimana cara menggunakan beberapa API yang paling umum
+                            yang
+                            akan
+                            sering Anda temui <p id="menyelesaikan">dalam</p> pekerjaan pengembangan Anda.</p> <br/>
+                    </div>
+
+                    <div class="handap">
+
+                        <h2>Menyelesaikan Masalah Umum Javascript</h2>
+                        <p><a href="#">Memecahkan masalah umum dalam kode JavaScript</a> Anda memberikan sedikit saran
+                            tentang cara
+                            menghindari kesalahan pemrograman JavaScript pemula yang umum, bersama dengan banyak tautan
+                            bermanfaat
+                            ke topik-topik yang menunjukkan cara memecahkan masalah pemrograman JavaScript <p id="lihat">yang</p> umum.
+                        </p>
+
+                        <h2>Lihat Juga</h2>
+                    </div>
+
+                    <h3><a href="#">Pemrograman C++</a></h3>
+                    <p>C++ sangat cocok untuk mengembangkan logika anda. Jika anda suka menyelesaikan masalah, maka
+                        bahasa ini
+                        sangat cocok untuk dipelajari. Bahasa ini juga sering digunakan di kampus kampus untuk melatih
+                        logika
+                        dan sebagai makanan pembuka untuk terjun ke dunia pemrograman. </p>
+
+                    <h3><a href="#">Rekomendasi Channel Youtube untuk Belajar Coding</a></h3>
+                    <p>Sebuah video tutorial yang luar biasa untuk mengajarkanmu bagaimana cara menjadi programmer yang
+                        efektif,
+                        oleh Kelas Terbuka </p>
+
+                    <div class="box">
+                        <h2>Menemukan masalah pada laman ini?</h2>
+                        <ul>
+                            <li><a href="#">Edit laman ini di github</a></li>
+                            <li><a href="#">Laporkan masalah konten</a></li>
+                            <li><a href="#">Lihat source di github</a></li>
+                        </ul>
+
+                        <p>Ingin terlibat lebih jauh? <a href="#">Belajar bagaimana cara konstribusi</a></p>
+                    </div>
+            </article>
+
+            <!-- daftar isi sebelah kanan -->
+            <aside>
+                <div class="daftar-isi">
+                    <h2>Dalam artikel ini</h2>
+                    <div class="list">
+                        <a href="#prasyarat">
+                            <p>Prasyarat</p>
+                        </a>
+                        <a href="#modul">
+                            <p>Modul</p>
+                        </a>
+                        <a href="#menyelesaikan">
+                            <p>Menyelesaikan masalah umum javascript</p>
+                        </a>
+                        <a href="#lihat">
+                            <p>Lihat juga</p>
+                        </a>
+                        <br />
+                    </div>
+                </div>
+            </aside>
+
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="container-footer">
+        <footer>
+            <div class="kaki">
+                <img src="../images/logo.png" alt="In A Nutshell" width="10%" height="20%">
+                <div class="produk">
+                    <h3>Produk</h3><br>
+                    <a href="#">Explore</a>
+                    <a href="#">Cari Kreator</a>
+                    <a href="#">Buat Halaman</a>
+                    <a href="#">Fitur dan harga</a>
+                </div>
+                <div class="informasi">
+                    <h3>Informasi</h3><br>
+                    <a href="#">Tentang</a>
+                    <a href="#">Syarat dan Ketentuan</a>
+                    <a href="#">Bantuan</a>
+                    <a href="#">Kebijakan Privasi</a>
+                </div>
+                <div class="hubungikami">
+                    <h3>Hubungi Kami</h3><br>
+                    <a href="#">Karir</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Kritik dan Saran</a>
+                </div>
+                <div class="socialmedia">
+                    <h3>Social Media</h3><br>
+                    <div class="footimage">
+                        <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #000;"></i></a>
+                    </div>
+                    <h3>Community</h3><br>
+                    <div class="footimage">
+                        <a href="#"><i class="fa-brands fa-discord fa-xl" style="color: #000;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h3 class="kopirek"><i class="fa-regular fa-copyright fa-sm" style="color: #000;"></i> PT Muhammad
+                Ghazwan 2023.</h3>
+        </footer>
+    </div>
+</body>
+
+</html>
