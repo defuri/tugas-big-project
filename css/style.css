@@ -60,10 +60,6 @@ nav ul li {
     margin-right: 35px;
 }
 
-nav ul li:hover {
-    text-decoration: underline;
-}
-
 nav ul,
 button {
     font-family: core-sans, sans-serif;
@@ -90,7 +86,30 @@ nav button:active {
 }
 
 #navigasi {
-    margin-left: -50px;
+    margin-left: -100px;
+}
+
+#navigasi a {
+    position: relative;
+}
+
+#navigasi a::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background: black;
+    bottom: -5px;
+    right: 0px;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transform-origin: right;
+}
+
+#navigasi a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 /* navbar selesai */
