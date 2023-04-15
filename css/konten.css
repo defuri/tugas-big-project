@@ -366,13 +366,10 @@ article h3 {
 
 .komentar {
     display: flex;
+    justify-content: space-evenly;
     margin-left: 20px;
     margin-top: 70px;
     width: 1368px;
-}
-
-.komentar hr {
-    width: 47%;
 }
 
 .komentar h3 {
@@ -402,12 +399,12 @@ article h3 {
 
 
 .kotak-kanan {
-    margin-left: 60px;
+    margin-left: 90px;
     margin-top: 7px;
 }
 
 .kotak-kanan img {
-    width: 300px;
+    width: 200px;
 }
 
 .kotak-kanan div {
@@ -469,7 +466,7 @@ article h3 {
 }
 
 .komentar .hapus, .komentar .kirim {
-    width: 80px;
+    width: 70px;
     float: right;
     margin-left: 15px;
     border-radius: 25px;
@@ -480,12 +477,43 @@ article h3 {
 }
 
 .komentar .kirim {
-    width: 130px;
+    width: 150px;
     background-color: #bfff00;
 }
 
 .komentar .kirim:hover {
     background-color: #A7D129;
+}
+
+.pertama, .kedua {
+    border-radius: 5px;
+    width: 290px;
+    box-shadow: 0 0 2px black;
+    padding: 25px;
+}
+
+.pertama p, .kedua p , .pertama h2, .kedua h2{
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 0;
+}
+
+.kotak-kanan p {
+    font-size: 14px;
+    color: black;
+}
+
+.kotak-kanan h2 {
+    letter-spacing: 0;
+    color: black;
+}
+
+.kotak-kanan img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.kotak-kanan h2:hover {
+    color: #7b52ab;
 }
 /* footer */
 #bungkus-footer {

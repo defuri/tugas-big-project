@@ -305,16 +305,15 @@ article blockquote {
 /* komentar */
 .bungkus-komentar {
     display: flex;
+    justify-content: center;
 }
 
 .komentar {
-    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
     margin-top: 70px;
-    width: 700px;
-}
-
-.komentar:hover {
-    cursor: default;
+    width: 1368px;
 }
 
 .komentar h3 {
@@ -340,6 +339,20 @@ article blockquote {
     font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 2px;
     font-size: 16px;
+}
+
+
+.kotak-kanan {
+    margin-left: 90px;
+    margin-top: 7px;
+}
+
+.kotak-kanan img {
+    width: 200px;
+}
+
+.kotak-kanan div {
+    margin-bottom: 50px
 }
 
 #website-kami {
@@ -397,7 +410,7 @@ article blockquote {
 }
 
 .komentar .hapus, .komentar .kirim {
-    width: 80px;
+    width: 70px;
     float: right;
     margin-left: 15px;
     border-radius: 25px;
@@ -408,12 +421,49 @@ article blockquote {
 }
 
 .komentar .kirim {
-    width: 130px;
+    width: 150px;
     background-color: #bfff00;
 }
 
 .komentar .kirim:hover {
     background-color: #A7D129;
+}
+
+.pertama, .kedua {
+    border-radius: 5px;
+    width: 290px;
+    box-shadow: 0 0 2px black;
+    padding: 25px;
+}
+
+.pertama p, .kedua p , .pertama h2, .kedua h2{
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 0;
+}
+
+.kotak-kanan span {
+    font-size: 14px;
+    color: #F5F5F5;
+    background: #66b2ff;
+    border-radius: 25px;
+    padding: 3px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.kotak-kanan h2 {
+    letter-spacing: 0;
+    color: black;
+}
+
+.kotak-kanan img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.kotak-kanan a {
+    text-decoration: none;
 }
 
 /* footer */
