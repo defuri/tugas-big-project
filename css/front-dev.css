@@ -351,11 +351,6 @@ article blockquote {
     display: flex;
 }
 
-.komentar img {
-    width: 35px;
-    margin-top: 20px;
-}
-
 .bagian-komentar {
     margin-top: 17px;
     margin-left: 15px;
@@ -415,6 +410,10 @@ article blockquote {
 
 .komentar .kirim {
     width: 130px;
+    background-color: #bfff00;
+}
+
+.komentar .kirim:hover {
     background-color: #A7D129;
 }
 
