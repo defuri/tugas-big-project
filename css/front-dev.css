@@ -334,9 +334,90 @@ article blockquote {
     color: black;
 }
 
+.komentar h2 {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
 #website-kami {
     border-bottom: red solid 2px;
 }
+
+.plek {
+    display: flex;
+}
+
+.komentar img {
+    width: 35px;
+    margin-top: 20px;
+}
+
+.bagian-komentar {
+    margin-top: 17px;
+    margin-left: 15px;
+}
+
+.bagian-komentar p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+}
+
+.bintang {
+    color: red;
+    font-size: 20px;
+    margin: 0;
+}
+
+.komentar form {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.komentar input {
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.komentar input:focus {
+    outline: none;
+}
+
+.komentar textarea {
+    margin-bottom: 15px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.komentar textarea:focus {
+    outline: none;
+}
+
+.komentar .hapus, .komentar .kirim {
+    width: 80px;
+    float: right;
+    margin-left: 15px;
+    border-radius: 25px;
+}
+
+.komentar .hapus:hover, .komentar .kirim:hover {
+    cursor: pointer;
+}
+
+.komentar .kirim {
+    width: 130px;
+    background-color: #A7D129;
+}
+
 /* footer */
 #bungkus-footer {
     display: flex;
