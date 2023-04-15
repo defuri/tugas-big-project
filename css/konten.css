@@ -361,15 +361,18 @@ article h3 {
 /* komentar */
 .bungkus-komentar {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .komentar {
     margin-left: 20px;
     margin-top: 70px;
-    width: 600px;
+    width: 1368px;
 }
 
+.komentar hr {
+    width: 47%;
+}
 .komentar:hover {
     cursor: default;
 }
