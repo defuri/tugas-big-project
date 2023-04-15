@@ -365,6 +365,7 @@ article h3 {
 }
 
 .komentar {
+    display: flex;
     margin-left: 20px;
     margin-top: 70px;
     width: 1368px;
@@ -372,9 +373,6 @@ article h3 {
 
 .komentar hr {
     width: 47%;
-}
-.komentar:hover {
-    cursor: default;
 }
 
 .komentar h3 {
@@ -400,6 +398,20 @@ article h3 {
     font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 2px;
     font-size: 16px;
+}
+
+
+.kotak-kanan {
+    margin-left: 60px;
+    margin-top: 7px;
+}
+
+.kotak-kanan img {
+    width: 300px;
+}
+
+.kotak-kanan div {
+    margin-bottom: 50px
 }
 
 #website-kami {
