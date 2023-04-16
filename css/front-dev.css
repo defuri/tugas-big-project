@@ -302,6 +302,76 @@ article blockquote {
     width: 5px;
 }
 
+/* newsletter */
+.bungkus-newsletter {
+    display: flex;
+    justify-content: center;
+    background-color: #F2EB46;
+    margin-top: 40px;
+}
+
+.parent-newsletter {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 8px solid black;
+    background-color: whitesmoke;
+}
+
+.newsletter {
+    margin: 80px 30px 30px 30px;
+    width: 500px;
+}
+
+.newsletter h1 {
+    font-family: 'PT Sans';
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.newsletter .keterangan {
+	margin-bottom: 30px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 28px;
+}
+
+.newsletter form {
+	margin-bottom: 5px;
+}
+
+.newsletter form input[type="email"] {
+	padding: 7px;
+	width: 290px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	outline: 2px solid black;
+	border: none;
+	margin-top: 2px
+}
+
+.newsletter form input[type="submit"] {
+	background-color: black;
+	color: #F5F5F5;
+	font-family: 'Dongle', sans-serif;
+	font-size: 30px;
+	width: 120px;
+	height: 45px;
+	outline: 2px solid black;
+	margin-left: 9px;
+	border: none;
+}
+
+.newsletter form input[type="submit"]:hover {
+	background-color: whitesmoke;
+	color: #000000;
+	cursor: pointer;
+	height: 43px;
+}
+
+.newsletter p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 10px;
+}
+
 /* komentar */
 .bungkus-komentar {
     display: flex;
