@@ -444,7 +444,7 @@ article blockquote {
 .kotak-kanan span {
     font-size: 14px;
     color: #F5F5F5;
-    background: #66b2ff;
+    background-color: #66b2ff;
     border-radius: 25px;
     padding: 3px;
     padding: 5px;
@@ -454,6 +454,10 @@ article blockquote {
 .kotak-kanan h2 {
     letter-spacing: 0;
     color: black;
+}
+
+.kotak-kanan h2:hover {
+    color: #7b52ab;
 }
 
 .kotak-kanan img {

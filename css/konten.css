@@ -403,8 +403,19 @@ article h3 {
     margin-top: 7px;
 }
 
+
+.kotak-kanan span {
+    font-size: 14px;
+    color: #F5F5F5;
+    background: #66b2ff;
+    border-radius: 25px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
 .kotak-kanan img {
     width: 200px;
+    margin-bottom: 15px;
 }
 
 .kotak-kanan div {
@@ -515,6 +526,7 @@ article h3 {
 .kotak-kanan h2:hover {
     color: #7b52ab;
 }
+
 /* footer */
 #bungkus-footer {
     display: flex;
