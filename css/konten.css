@@ -527,6 +527,84 @@ article h3 {
     color: #7b52ab;
 }
 
+
+/* newsletter */
+.bungkus-newsletter {
+    display: flex;
+    justify-content: center;
+    background-color: #F2EB46;
+    margin-top: 40px;
+}
+
+.parent-newsletter {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-top: 8px solid black;
+    background-color: whitesmoke;
+}
+
+.newsletter {
+    margin: 80px 30px 30px 30px;
+    width: 500px;
+}
+
+.newsletter h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.newsletter .keterangan {
+	margin-bottom: 30px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.newsletter form {
+	margin-bottom: 5px;
+}
+
+.newsletter form input[type="email"] {
+	padding: 7px;
+	width: 290px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	outline: 2px solid black;
+	border: none;
+	margin-top: 2px
+}
+
+.newsletter form input[type="submit"] {
+    margin-left: 8px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    width: 120px;
+    height: 37px;
+    font-family: 'Roboto', sans-serif;
+    outline: 2px solid black;
+    font-size: 15px;
+}
+
+.newsletter form input[type="submit"]:hover {
+	background-color: whitesmoke;
+	color: #000000;
+	cursor: pointer;
+    outline: 2px solid black;
+}
+
+.newsletter form input[type="submit"]:active {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.newsletter p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 10px; 
+    font-weight: 600;
+}
+
 /* footer */
 #bungkus-footer {
     display: flex;

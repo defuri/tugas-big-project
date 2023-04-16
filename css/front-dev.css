@@ -311,8 +311,8 @@ article blockquote {
 }
 
 .parent-newsletter {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     border-top: 8px solid black;
     background-color: whitesmoke;
 }
@@ -323,7 +323,7 @@ article blockquote {
 }
 
 .newsletter h1 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -331,7 +331,8 @@ article blockquote {
 .newsletter .keterangan {
 	margin-bottom: 30px;
     font-family: 'Dongle', sans-serif;
-    font-size: 28px;
+    font-size: 25px;
+    font-weight: lighter;
 }
 
 .newsletter form {
@@ -349,27 +350,33 @@ article blockquote {
 }
 
 .newsletter form input[type="submit"] {
-	background-color: black;
-	color: #F5F5F5;
-	font-family: 'Dongle', sans-serif;
-	font-size: 30px;
-	width: 120px;
-	height: 45px;
-	outline: 2px solid black;
-	margin-left: 9px;
-	border: none;
+    margin-left: 8px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    width: 120px;
+    height: 37px;
+    font-family: 'Roboto', sans-serif;
+    outline: 2px solid black;
+    font-size: 15px;
 }
 
 .newsletter form input[type="submit"]:hover {
 	background-color: whitesmoke;
 	color: #000000;
 	cursor: pointer;
-	height: 43px;
+    outline: 2px solid black;
+}
+
+.newsletter form input[type="submit"]:active {
+    background-color: black;
+    color: whitesmoke;
 }
 
 .newsletter p {
 	font-family: 'Poppins', sans-serif;
-	font-size: 10px;
+	font-size: 10px; 
+    font-weight: 600;
 }
 
 /* komentar */
