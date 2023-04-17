@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../images/logo.png" />
-    <link rel="stylesheet" href="../css/style.css" media="all" />
+    <link rel="stylesheet" href="../css/style.css" media="all" /> <!-- css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="../js/script.js"></script>
     <title>In a Nutshell: Tempat Belajar Pemrograman Paling Lengkap!</title>
 
@@ -16,7 +17,7 @@
     <!-- font awesome    -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <!-- poppins bold -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
     <!-- mulish -->
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <!-- roboto -->
@@ -31,6 +32,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!-- pt sans pro bold -->
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <!-- poppins 300, 400, 500, 600, 700 -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
 
 </head>
 
@@ -163,31 +169,80 @@
                 </div>
             </div>
 
-            <div class="bungkus-newsletter">
-                
-                <div class="daleman">
+            <!-- pengajar -->
 
-                        <div class="newsletter">
-                            <div class="kata-kata">
-                                <h1>Subscribe Sekarang 📬</h1>
-                                <p>Dapatkan beragam artikel tutorial, insight dan tips menarik seputar dunia online
-                                    langsung
-                                    melalui
-                                    email Anda. Subscribe sekarang dan raih kesuksesan bersama kami! </p>
-                                </div>
-                                
-                                <form method="post" action="#">
-                                    <input type="text" name="nama" maxlength="40" placeholder="Name" required /> <br />
-                                    <input type="email" name="email" maxlength="40" placeholder="Email" required /> <br />
-                                    <div class="kotak">
-                                        <input type="checkbox" name="setuju" checked class="box">
-                                        <p>Dapatkan berita terbaru In a Nutshell</p>
+            <section>
+                <div class="bintang">
+                    <div class="bodi">
+                        <div class="swiper mySwiper pengajar">
+                            <div class="swiper-wrapper content">
+                                <div class="swiper-slide card">
+                                    <div class="card-content">
+                                        <div class="image">
+                                            <img src="../images/img1.jpg" alt="Pengajar">
+                                        </div>
+
+                                        <div class="media-icons">
+                                            <i class="fab fa-facebook"></i>
+                                            <i class="fab fa-twitter"></i>
+                                            <i class="fab fa-github"></i>
+                                        </div>
+
+                                        <div class="nama-pekerjaan">
+                                            <span class="nama">Nama Seseorang</span>
+                                            <span class="pekerjaan">Web Developer</span>
+                                        </div>
+
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+
+                                        <div class="tombol">
+                                            <button class="tentang-saya">Tentang Saya</button>
+                                            <button class="kontak">Kontak Saya</button>
+                                        </div>
                                     </div>
-                                    <input type="submit" name="kirim" value="Subscribe" class="kirim" />
-                                </form>
+                                </div>
                             </div>
+                            
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-pagination"></div>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <!-- newsletter -->
+            <div class="bungkus-newsletter">
+
+                <div class="daleman">
+
+                    <div class="newsletter">
+                        <div class="kata-kata">
+                            <h1>Subscribe Sekarang 📬</h1>
+                            <p>Dapatkan beragam artikel tutorial, insight dan tips menarik seputar dunia online
+                                langsung
+                                melalui
+                                email Anda. Subscribe sekarang dan raih kesuksesan bersama kami! </p>
+                        </div>
+
+                        <form method="post" action="#">
+                            <input type="text" name="nama" maxlength="40" placeholder="Name" required /> <br />
+                            <input type="email" name="email" maxlength="40" placeholder="Email" required /> <br />
+                            <div class="kotak">
+                                <input type="checkbox" name="setuju" checked class="box">
+                                <p>Dapatkan berita terbaru In a Nutshell</p>
+                            </div>
+                            <input type="submit" name="kirim" value="Subscribe" class="kirim" />
+                        </form>
+                    </div>
+                </div>
+            </div>
         </article>
     </div>
 
@@ -224,13 +279,14 @@
                     </div>
                     <h3>Community</h3><br>
                     <div class="footimage">
-                    <a href="#"><i class="fa-brands fa-discord fa-xl" style="color: #000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord fa-xl" style="color: #000;"></i></a>
                     </div>
                 </div>
             </div>
             <h3 class="kopirek"><i class="fa-regular fa-copyright fa-sm" style="color: #000;"></i> PT Muhammad
-                    Ghazwan 2023.</h3>
+                Ghazwan 2023.</h3>
         </footer>
     </div>
 </body>
+
 </html>
