@@ -7,6 +7,18 @@ window.addEventListener("scroll", function() {
     navbarhilang.classList.toggle("scrolled2", window.scrollY > 1256);
 });
 
+const wrapper = document.querySelector(".wrapper");
+const loginLink = document.querySelector(".login-link");
+const registerLink = document.querySelector(".register-link");
+
+registerLink.addEventListener("click", ()=> {
+    wrapper.classList.add("active");
+});
+
+loginLink.addEventListener("click", ()=> {
+    wrapper.classList.remove ("active");
+});
+
 var swiper = new Swiper(".mySwiper", {
     slidesPerview: 3,
     spaceBetween: 30,
