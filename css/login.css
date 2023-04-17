@@ -28,7 +28,8 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    transition: height .3s ease;
+    transform: scale(0);
+    transition: transform .33s ease, height .3s ease;
 }
 
 .wrapper.active {
@@ -61,6 +62,10 @@ body {
     transform: translateX(0);
 }
 
+.wrapper.active-btn {
+    transform: scale(1);
+}
+
 .wrapper .icon-close {
     position: absolute;
     top: 0;
@@ -75,6 +80,8 @@ body {
     align-items: center;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 13px;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .form-box h2 {

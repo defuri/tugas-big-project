@@ -9,11 +9,18 @@ window.addEventListener("scroll", function() {
 
 const wrapper = document.querySelector(".wrapper");
 const links = document.querySelectorAll(".link");
+const btnPopup = document.querySelectorAll(".btn-popup");
 
-    // console.log(wrapper, links)
 links.forEach(link => {
     link.addEventListener("click" , e => {
         e.preventDefault();
         wrapper.classList.toggle("active");
+    });
+});
+
+btnPopup.forEach(link => {
+    link.addEventListener("click" , e => {
+        e.preventDefault();
+        wrapper.classList.toggle("active-btn")
     });
 });
