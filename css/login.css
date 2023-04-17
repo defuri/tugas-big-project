@@ -13,11 +13,6 @@ body {
     min-height: 100vh;
 }
 
-.bungkus {
-    display: flex;
-    gap: 80px;
-}
-
 .key{
     font-size: 24px;
 }
@@ -32,8 +27,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* overflow: hidden; */
-    transition: height .2 ease;
+    overflow: hidden;
+    transition: height .3s ease;
 }
 
 .wrapper.active {
@@ -46,12 +41,24 @@ body {
 }
 
 .wrapper .form-box.login {
-    /* display: none; */
+    transition: .2s ease;
+    transform: translateX(0);
+}
+
+.wrapper.active .form-box.login {
+    position: absolute;
+    transform: translateX(-400px);
 }
 
 .wrapper .form-box.register {
     position: absolute;
     transform: translateX(400px);
+    transition: .2s ease;
+}
+
+.wrapper.active .form-box.register {
+    position: absolute;
+    transform: translateX(0);
 }
 
 .wrapper .icon-close {

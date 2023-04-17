@@ -8,14 +8,12 @@ window.addEventListener("scroll", function() {
 });
 
 const wrapper = document.querySelector(".wrapper");
-const loginLink = document.querySelector(".login-link");
-const registerLink = document.querySelector(".register-link");
+const links = document.querySelectorAll(".link");
 
-registerLink.addEventListener("click", ()=> {
-    const wrapper = document.querySelector(".wrapper");
-    wrapper.classList.add("active");
-});
-
-loginLink.addEventListener("click", ()=> {
-    wrapper.classList.remove ("active");
+    // console.log(wrapper, links)
+links.forEach(link => {
+    link.addEventListener("click" , e => {
+        e.preventDefault();
+        wrapper.classList.toggle("active");
+    });
 });
