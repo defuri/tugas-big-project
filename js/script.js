@@ -12,25 +12,10 @@ const loginLink = document.querySelector(".login-link");
 const registerLink = document.querySelector(".register-link");
 
 registerLink.addEventListener("click", ()=> {
+    const wrapper = document.querySelector(".wrapper");
     wrapper.classList.add("active");
 });
 
 loginLink.addEventListener("click", ()=> {
     wrapper.classList.remove ("active");
-});
-
-var swiper = new Swiper(".mySwiper", {
-    slidesPerview: 3,
-    spaceBetween: 30,
-    slidesPerGroup: 3,
-    loop: true,
-    loopFillGroupWithBlank: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    navigation: {
-        nexEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    }
 });
