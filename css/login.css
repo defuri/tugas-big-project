@@ -17,6 +17,27 @@ body {
     font-size: 24px;
 }
 
+.btn-popup {
+    border: none;
+    width: 100px;
+    height: 50px;
+    background: black;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.btn-popup:hover {
+    cursor: pointer;
+    background: whitesmoke;
+    color: black;
+    border: thin solid grey;
+}
+
+.btn-popup:active {
+    background: black;
+    color: whitesmoke;
+}
+
 .wrapper {
     position: relative;
     width: 400px;
