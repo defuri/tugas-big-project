@@ -289,6 +289,7 @@ p {
     background-color: #E3EEFC;
 }
 
+
 #button-wrap {
     display: flex;
     justify-content: center;
@@ -304,11 +305,12 @@ p {
     font-size: 14px;
     border-radius: 25px;
     border: 2px solid #D1D1D2;
+    background-color: #f8f8fb;
 }
 
 #kategori button:hover {
+    background-color: #E6E6E6;
     cursor: pointer;
-    background-color: #E8E8E8;
 }
 
 /* newsletter */

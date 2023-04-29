@@ -8,28 +8,18 @@
     <link rel="stylesheet" href="../css/front-dev.css" media="all" />
     <link rel="icon" href="../images/logo.png" />
     <title>In a Nutshell: Tutorial Front End Developer</title>
-    <script src="../js/script.js"></script>
-    
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <!-- roboto -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <!-- open sans -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <!-- mountserrat -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <!-- sans narrow -->
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
-    <!-- noto sans japaneese -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <!-- pt sans -->
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <!-- dongle -->
+    <script defer src="../js/script.js"></script>
+    <script defer src="../js/frontDev.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /> <!-- roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!-- poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> <!-- open sans --> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> <!-- mountserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> <!-- sans narrow -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet"> <!-- noto sans japaneese --> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> <!-- pt sans -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> <!-- dongle -->
     <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
 </head>
 
@@ -59,8 +49,8 @@
                 </div>
 
                 <div class="nav-kanan">
-                    <a href="#">Log in</a>
-                    <a href="#"><button>Sign up</button></a>
+                    <a href="login.html">Log in</a>
+                    <a href="login.html"><button>Sign up</button></a>
                 </div>
             </nav>
         </div>
@@ -91,6 +81,16 @@
 
     <!-- saran artikel -->
     <div class="bungkus-artikel">
+
+        <aside class="kiri">
+            <p>Share</p>
+            <a href="#" id="lep"><i class="fa-brands fa-facebook fa-lg" style="color: #404040;"></i></a>
+            <a href="#" id="lep"><i class="fa-brands fa-twitter fa-lg" style="color: #404040"></i></a>
+            <a href="#" id="lep"><i class="fa-brands fa-instagram fa-lg" style="color: #404040"></i></a>
+            <a href="#" id="lep"><i class="fa-brands fa-discord fa-lg" style="color: #404040"></i></a>
+            <a href="#komentari" id="lep"><i class="fa-solid fa-comment fa-lg" style="color: #404040"></i></a>
+        </aside>
+
         <article>
             <header>
                 <strong>
@@ -433,7 +433,7 @@
                 <p class="keterangan">Get weekly access to our best deals, tips and tricks.</p>
                 <form action="#" method="post">
                     <input type="email" name="email" required placeholder="example@gmail.com" maxlength="40">
-                    <input type="submit" name="submit" value="Join">
+                    <input type="submit" name="submit" value="Join" style="transform: translatey(1px);">
                 </form>
 
                 <p><em>Tenang aja, kami gak ngasih spam kok!</em></p>
@@ -441,7 +441,7 @@
         </div>
     </div>
 
-    <div class="bungkus-komentar">
+    <div class="bungkus-komentar" id="komentari">
         <div class="komentar">
             <div>
                 <h3>komentar</h3>
