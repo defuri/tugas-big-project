@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../images/logo.png" />
-    <!-- <link rel="stylesheet" href="../css/login.css" media="all" /> css -->
+    <link rel="stylesheet" href="../css/login.css" media="all" />
     <link rel="stylesheet" href="../css/style.css" media="all" /> <!-- css -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="../js/script.js"></script><!-- java -->
@@ -37,7 +37,9 @@
     <!-- poppins 300, 400, 500, 600, 700 -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-
+        
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/s@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </head>
 
@@ -60,7 +62,7 @@
             </div>
 
             <span>
-                <a href="login.html"><button class="btn-popup">Login</button></a>
+                <a href="login.html"><button class="btn-pop">Login</button></a>
             </span>
         </nav>
     </div>
@@ -184,9 +186,9 @@
                                 email Anda. Subscribe sekarang dan raih kesuksesan bersama kami! </p>
                         </div>
 
-                        <form method="post" action="#">
-                            <input type="text" name="nama" maxlength="40" placeholder="Name" required /> <br />
-                            <input type="email" name="email" maxlength="40" placeholder="Email" required /> <br />
+                        <form method="post" action="#" class="news-induk">
+                            <input class="news" type="text" name="nama" maxlength="40" placeholder="Name" required /> <br />
+                            <input class="news" type="email" name="email" maxlength="40" placeholder="Email" required /> <br />
                             <div class="kotak">
                                 <input type="checkbox" name="setuju" checked class="box">
                                 <p>Dapatkan berita terbaru In a Nutshell</p>
@@ -239,6 +241,73 @@
             <h3 class="kopirek"><i class="fa-regular fa-copyright fa-sm" style="color: #000;"></i> PT Muhammad
                 Ghazwan 2023.</h3>
         </footer>
+    </div>
+
+    <div class="wrapper">
+        <span class="icon-close btn-popup">
+            <ion-icon name="close-outline"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="index.html" method="get">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="key" class="key"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn-submit">Login</button>
+                <div class="login-register">
+                    <p>Don't have account? <a href="#" class="link register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="index.html" method="get">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="key" class="key"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" required>I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn-submit">Login</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="link login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 
