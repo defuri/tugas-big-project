@@ -269,9 +269,8 @@ article blockquote {
 /* daftar isi kanan*/
 
 .bungkus-daftar-isi {
-    top: 23vh;
+    top: 25vh;
     position: sticky;
-    margin-top: auto;
 }
 
 .daftar-isi {
