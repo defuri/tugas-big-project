@@ -197,14 +197,14 @@ nav ul a:hover {
     }
 
     to {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }
 
 aside.kiri a:hover {
     animation-name: jum;
-    animation-duration: 0.9s;
-    animation-timing-function: ease;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
     animation-direction: normal;
     animation-fill-mode: both;
 }
