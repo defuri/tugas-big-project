@@ -7,20 +7,22 @@ window.addEventListener("scroll", function() {
     navbarhilang.classList.toggle("scrolled2", window.scrollY > 1256);
 });
 
+
+
 const wrapper = document.querySelector(".wrapper");
 const links = document.querySelectorAll(".link");
-const btnPopup = document.querySelectorAll(".btn-popup");
+const btnPopup = document.querySelectorAll(".btn-pop");
 
 links.forEach(link => {
-    link.addEventListener("click" , e => {
-        e.preventDefault();
+    link.addEventListener("click" , a => {
+        a.preventDefault();
         wrapper.classList.toggle("active");
     });
 });
 
 btnPopup.forEach(link => {
-    link.addEventListener("click" , e => {
-        e.preventDefault();
+    link.addEventListener("click" , b => {
+        b.preventDefault();
         wrapper.classList.toggle("active-btn")
     });
 });
