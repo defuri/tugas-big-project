@@ -1,3 +1,7 @@
+:root {
+    font-size: 16px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -207,11 +211,12 @@ nav ul a:hover {
 }
 
 .saran h3 {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    font-weight: 600;
     margin-top: 30px;
     margin-bottom: 30px;
-    letter-spacing: 1px;
-    margin-left: 15px;
+    margin-left: 15px   ;
 }
 
 .saran img {
@@ -310,8 +315,8 @@ a:hover {
 }
 
 .kotak h2 {
-    font-size: 15px;
-    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .kotak p {
@@ -404,7 +409,6 @@ article h3 {
     margin-left: 90px;
     margin-top: 7px;
 }
-
 
 .kotak-kanan span {
     font-size: 14px;
@@ -503,6 +507,10 @@ article h3 {
     width: 290px;
     box-shadow: 0 0 2px black;
     padding: 25px;
+}
+
+.pertama:hover h2, .kedua:hover h2 {
+    color: #0033cc;
 }
 
 .pertama p, .kedua p , .pertama h2, .kedua h2{

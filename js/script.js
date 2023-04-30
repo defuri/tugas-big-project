@@ -26,3 +26,7 @@ btnPopup.forEach(link => {
         wrapper.classList.toggle("active-btn")
     });
 });
+
+function ilang() {
+    document.getElementById("wrapper").style.display = "none";
+}
