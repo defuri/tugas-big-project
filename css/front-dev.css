@@ -473,6 +473,10 @@ article blockquote {
     margin-top: 7px;
 }
 
+.pertama:hover h2, .kedua:hover h2 {
+    color: #0033cc;
+}
+
 .kotak-kanan img {
     width: 200px;
 }
