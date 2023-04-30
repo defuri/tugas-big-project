@@ -7,26 +7,47 @@ window.addEventListener("scroll", function() {
     navbarhilang.classList.toggle("scrolled2", window.scrollY > 1256);
 });
 
+    let login = document.getElementById('login-popup');
+    let bg = document.getElementById('login-background');
+    // let switching = document.getElementById('register');
+    // let switchBack = document.getElementById('login');
 
+    function openLogin() {
+        login.classList.add('active-btn');
+        bg.classList.add('active-btn');
+    }
 
-const wrapper = document.querySelector(".wrapper");
-const links = document.querySelectorAll(".link");
-const btnPopup = document.querySelectorAll(".btn-pop");
+    function closeLogin() {
+        login.classList.remove('active-btn');
+        bg.classList.remove('active-btn');
+    }
 
-links.forEach(link => {
-    link.addEventListener("click" , a => {
-        a.preventDefault();
-        wrapper.classList.toggle("active");
-    });
-});
+    function switchRegister() {
+        login.classList.add('active');
+    }
 
-btnPopup.forEach(link => {
-    link.addEventListener("click" , b => {
-        b.preventDefault();
-        wrapper.classList.toggle("active-btn")
-    });
-});
+    function switchLogin() {
+        login.classList.remove('active');
+    }
 
-function ilang() {
-    document.getElementById("wrapper").style.display = "none";
-}
+// const wrapper = document.querySelector(".wrapper");
+// const links = document.querySelectorAll(".link");
+// const btnPopup = document.querySelectorAll(".btn-pop");
+
+// links.forEach(link => {
+//     link.addEventListener("click" , a => {
+//         a.preventDefault();
+//         wrapper.classList.toggle("active");
+//     });
+// });
+
+// btnPopup.forEach(link => {
+//     link.addEventListener("click" , b => {
+//         b.preventDefault();
+//         wrapper.classList.toggle("active-btn")
+//     });
+// });
+
+// function ilang() {
+//     document.getElementById("wrapper").style.display = "none";
+// }

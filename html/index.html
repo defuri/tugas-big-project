@@ -43,7 +43,7 @@
             </div>
 
             <span>
-                <a href="#"><button class="btn-pop">Login</button></a>
+                <button class="btn-pop" onclick="openLogin()">Login</button>
             </span>
         </nav>
     </div>
@@ -101,7 +101,7 @@
                             </div>
                         </a>
 
-                        <a href="../html/login.html">
+                        <a href="../html/front-dev.html">
                             <div id="frontend-developer">
                                 <div>
 
@@ -224,12 +224,12 @@
                 Ghazwan 2023.</h3>
         </footer>
 
-        <div class="bungkus-login">
-            <div class="wrapper">
+        <div class="bungkus-login" id="login-background">
+            <div class="wrapper" id="login-popup">
                 <span class="icon-close btn-popup">
-                    <ion-icon name="close-outline"></ion-icon>
+                    <ion-icon name="close-outline" onclick="closeLogin()"></ion-icon>
                 </span>
-                <div class="form-box login">
+                <div class="form-box login" id="login">
                     <h2>Login</h2>
                     <form action="index.html" method="get">
                         <div class="input-box">
@@ -252,12 +252,12 @@
                         </div>
                         <button type="submit" class="btn-submit">Login</button>
                         <div class="login-register">
-                            <p>Don't have account? <a href="#" class="link register-link">Register</a></p>
+                            <p>Don't have account? <a href="#" class="register-link" onclick="switchRegister()">Register</a></p>
                         </div>
                     </form>
                 </div>
         
-                <div class="form-box register">
+                <div class="form-box register" id="register">
                     <h2>Registration</h2>
                     <form action="index.html" method="get">
                         <div class="input-box">
@@ -286,7 +286,7 @@
                         </div>
                         <button type="submit" class="btn-submit">Login</button>
                         <div class="login-register">
-                            <p>Already have an account? <a href="#" class="link login-link">Login</a></p>
+                            <p>Already have an account? <a href="#" class="login-link" onclick="switchLogin()">Login</a></p>
                         </div>
                     </form>
                 </div>
