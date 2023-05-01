@@ -15,106 +15,99 @@ TODO benerin marign daftar isi sebelah kanan
 
 /* navbar disini */
 
-.parent-nav {
-    position: sticky;
-    top: 0;
-    z-index: 200;
-}
-
-.bungkus-nav {
-    position: sticky;
-    -webkit-position: sticky;
-    top: 0;
+.kontainer-nav {
+    position: fixed;
+    background-color: #ff6961;
     display: flex;
     justify-content: center;
-    background-color: #FFFFFF;
-    border-bottom: 1px solid #CDCDCD;
+    width: 100%;
+    transition: all .5s ease;
+    z-index: 1;
 }
+
 
 nav {
-    position: sticky;
-    top: 0;
-    width: 1360px;
+    width: 1200px;
+    height: 50px;
+    margin-top: 17px;
     display: flex;
     justify-content: space-between;
-    background-color: #FFFFFF;
-}
-
-nav:hover {
     cursor: default;
 }
 
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:active {
+    text-decoration: none;
+}
+
 nav h1 {
+    margin-top: 5px;
     font-family: sans-serif;
-    display: inline-flex;
-    color: black;
-    margin: 15px;
 }
 
-nav ul {
+nav ul li {
+    display: inline-block;
     list-style: none;
-    display: inline-flex;
-    margin: 10px;
+    margin-top: 8px;
+    margin-right: 35px;
 }
 
-nav ul a {
-    text-decoration: none;
-    color: #4D4D4D;
-    font-family: 'Roboto', sans-serif;
+nav ul, nav button {
+    font-family: 'Poppins', sans-serif;
+}   
+
+nav button {
+    width: 100px;
     padding: 10px;
-}
-
-nav ul a:hover {
-    color: #1A73E8;
-    background-color: #E3EEFC;
+    background-color: white;
+    border: 1px solid grey;
     border-radius: 5px;
-}
-
-.nav-kanan {
-    display: flex;
-    align-items: center;
-}
-
-.nav-kanan a {
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    color: #4D4D4D;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
-.nav-kanan a:hover {
-    text-decoration: underline;
-}
-
-.nav-kanan a:active {
-    text-decoration: none;
-}
-
-.nav-kanan button {
+nav button:hover {
+    color: whitesmoke;
     background-color: black;
-    color: white;
-    border: none;
-    height: 40px;
-    width: 80px;
-    text-align: center;
-    border-radius: 5px;
-    margin: 0 20px;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
-.nav-kanan button:hover {
-    cursor: pointer;
+nav button:active {
     color: black;
     background-color: white;
-    border: 1px solid #C4C4C4;
-    border-radius: 5px;
 }
 
-.nav-kanan button:active {
-    color: white;
-    background-color: #000000;
+#navigasi {
+    margin-left: -50px;
+    transition: all .5s ease;
+    padding-left: 600px;
+}
+
+#navigasi a {
+    position: relative;
+    color:#000;
+}
+
+#navigasi a::after {
+    content: '';
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: -3px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+
+#navigasi a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 .bungkus-bawah {
@@ -123,8 +116,10 @@ nav ul a:hover {
     position: sticky;
     top: 63px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #ffd8b1;
     border-bottom: 1px solid #CDCDCD;
+    z-index: 1;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, .5);
 }
 
 .bawah {
@@ -168,6 +163,7 @@ nav ul a:hover {
     margin-top: 10vh;
     display: flex;
     justify-content: center;
+    margin-top: 125px;
 }
 
 .bungkus-artikel aside.kiri {
@@ -273,6 +269,10 @@ article blockquote {
     position: sticky;
 }
 
+aside.kanan{
+    background-color: #eee;
+}
+
 .daftar-isi {
     margin-left: 40px;
     width: 300px;
@@ -355,7 +355,7 @@ article blockquote {
 .bungkus-newsletter {
     display: flex;
     justify-content: center;
-    background-color: #F2EB46;
+    background-color: #66b2ff;
     margin-top: 40px;
 }
 
@@ -554,11 +554,11 @@ article blockquote {
 
 .komentar .kirim {
     width: 150px;
-    background-color: #bfff00;
+    background-color: #ff6961;
 }
 
 .komentar .kirim:hover {
-    background-color: #A7D129;
+    background-color: #fedcaf;
 }
 
 .pertama,

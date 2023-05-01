@@ -22,7 +22,7 @@ html {
 
 .kontainer-nav {
     position: fixed;
-    background-color: rgb(254, 220, 175);
+    background-color: #fedcaf;
     display: flex;
     justify-content: center;
     width: 100%;

@@ -22,35 +22,28 @@
 
 <body>
     <!-- navbar -->
-    <div class="parent-nav">
-        <div class="bungkus-nav">
-            <nav>
-                <div>
-                    <a href="index.html" id="logo">
-                        <h1>In a Nutshell</h1>
-                    </a>
+    <div class="kontainer-nav">
+        <nav>
+            <span>
+                <a href="index.html">
+                    <h1>In a Nutshell</h1>
+                </a>
+            </span>
 
-                    <ul>
-                        <a href="index.html">
-                            <li>Home</li>
-                        </a>
-                        &ensp;
-                        <a href="#">
-                            <li>Tutorial</li>
-                        </a>
-                        &ensp;
-                        <a href="#">
-                            <li>Blog</li>
-                        </a>
-                    </ul>
-                </div>
+            <div id="navigasi">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="login.html">Tutorial</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
 
-                <div class="nav-kanan">
-                    <a href="login.html">Log in</a>
-                    <a href="login.html"><button>Sign up</button></a>
-                </div>
-            </nav>
-        </div>
+            <span>
+                <button class="btn-pop" onclick="openLogin()">Login</button>
+            </span>
+        </nav>
+    </div>
 
         <!-- ini untuk nav yang warna abu abu -->
         <div class="bungkus-bawah">
@@ -398,7 +391,7 @@
 
         <!-- daftar isi -->
 
-        <aside>
+        <aside class="kanan">
             <div class="bungkus-daftar-isi">
                 <div class="daftar-isi">
                     <h2>Dalam artikel ini</h2>
@@ -415,7 +408,7 @@
                         <a href="#javascript" id="komentar">
                             <p>Tutorial Javascript</p>
                         </a>
-                        <br />
+                        <br/>
                     </div>
                 </div>
             </div>
