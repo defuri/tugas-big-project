@@ -9,8 +9,6 @@ window.addEventListener("scroll", function() {
 
     let login = document.getElementById('login-popup');
     let bg = document.getElementById('login-background');
-    // let switching = document.getElementById('register');
-    // let switchBack = document.getElementById('login');
 
     function openLogin() {
         login.classList.add('active-btn');
@@ -29,25 +27,3 @@ window.addEventListener("scroll", function() {
     function switchLogin() {
         login.classList.remove('active');
     }
-
-// const wrapper = document.querySelector(".wrapper");
-// const links = document.querySelectorAll(".link");
-// const btnPopup = document.querySelectorAll(".btn-pop");
-
-// links.forEach(link => {
-//     link.addEventListener("click" , a => {
-//         a.preventDefault();
-//         wrapper.classList.toggle("active");
-//     });
-// });
-
-// btnPopup.forEach(link => {
-//     link.addEventListener("click" , b => {
-//         b.preventDefault();
-//         wrapper.classList.toggle("active-btn")
-//     });
-// });
-
-// function ilang() {
-//     document.getElementById("wrapper").style.display = "none";
-// }
