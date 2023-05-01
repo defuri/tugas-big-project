@@ -385,6 +385,7 @@ p {
 .box {
     width: 15px;
     margin-left: 7px;
+    margin-top: -15px;
 }
 
 .kotak p {
@@ -400,7 +401,9 @@ p {
     color: whitesmoke;
     font-size: 15px;
     width: 100px;
-    padding: 10px -3px;
+    padding: 12px 10px;
+    border-radius: 25px;
+    border: none;
 }
 
 .kirim:hover {
@@ -521,13 +524,13 @@ h3 {
     background: black;
     color: whitesmoke;
     border-radius: 5px;
+    border: thin solid grey;
 }
 
 .btn-popup:hover {
     cursor: pointer;
     background: whitesmoke;
     color: black;
-    border: thin solid grey;
 }
 
 .btn-popup:active {
@@ -703,5 +706,15 @@ h3 {
 }
 
 .login-register p a:hover {
+    text-decoration: underline;
+}
+
+.register-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-link:hover {
+    cursor: pointer;
     text-decoration: underline;
 }
