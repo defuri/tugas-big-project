@@ -189,7 +189,7 @@ nav ul a:hover {
     height: 100%;
 }
 
-/* daftar isi kiri */
+/* !daftar isi kiri */
 
 .bungkus-saran {
     position: sticky;
@@ -206,8 +206,33 @@ nav ul a:hover {
     height: 87vh;
 }
 
+.saran ul {
+    font-family: 'Roboto', sans-serif;
+    color: #4E4e4e;
+}
+
+.saran ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.saran #isi { /* !list yang disembunyikan */
+    list-style: none;
+    display: none;
+}
+
+
+.saran ul li ul li{
+    list-style: none;
+    margin-left: -30px;
+}
+
 .saran a:hover {
     text-decoration: underline;
+}
+
+.saran ul li.isi {
+    list-style: none;
 }
 
 .saran h3 {
@@ -215,7 +240,7 @@ nav ul a:hover {
     font-size: 16px;
     font-weight: 600;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     margin-left: 15px   ;
 }
 
