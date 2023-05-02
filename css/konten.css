@@ -220,10 +220,6 @@ nav button:active {
     margin-right: 5px;
 }
 
-.saran {
-    list-style: url(../../images/segitiga.png);
-}
-
 .saran ul {
     margin-left: 30px;
     line-height: 19px;
@@ -231,9 +227,9 @@ nav button:active {
 }
 
 .saran ul li {
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    list-style: url(../images/play.jpeg);
 }
-
 
 /* daftar isi kanan*/
 

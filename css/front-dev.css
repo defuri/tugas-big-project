@@ -1,9 +1,3 @@
-/*
-TODO kasih outline icon share:hover sebelah kiri
-TODO kasih animasi icon share 
-TODO benerin marign daftar isi sebelah kanan
-*/
-
 :root {
     font-size: 16px;
 }
@@ -267,6 +261,7 @@ article blockquote {
 .bungkus-daftar-isi {
     top: 25vh;
     position: sticky;
+    height: 80vh;
 }
 
 aside.kanan{
