@@ -5,18 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../../images/logo.png">
+    <link rel="icon" href="../images/logo.png">
     <link rel="stylesheet" href="../css/konten.css" />
     <title>In a Nutshell: Javascript "Organ" Sebuah Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /> <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- font awesome-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!-- roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> <!-- open sans-->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet"> <!-- noto sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+    <!-- noto sans -->
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> <!-- pt sans-->
     <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet"> <!-- dongle -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> <!-- poppins --> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"> <!-- poppins -->
     <script defer src="../js/script.js"></script><!-- !javascript -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> <!-- !ionIcons-->
+    <script defer src="../js/konten.js"></script> <!-- !javascript-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <!-- !ionIcons-->
     <script nomodule src="https://unpkg.com/s@7.1.0/dist/ionicons/ionicons.js"></script><!-- !iconIcons-->
 
 <body>
@@ -34,7 +40,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="login.html">Tutorial</a></li>
+                    <li><a href="#">Tutorial</a></li>
                     <li><a href="#">Blog</a></li>
                 </ul>
             </div>
@@ -76,14 +82,59 @@
                         <a href="#">
                             <h3>Panduan Lengkap Dimulai Disini!</h3>
                         </a>
-                        <a href="#" style="font-size: 14px; margin-left: 15px;">Memulai dengan web</a>
+
+                        <ul>
+                            <li class="memulai" id="memulai" onclick="munculIlang()"><a>Memulai dengan web</a></li>
+                            <li id="listIlang">
+                                <ul id="isiSatu">
+                                    <li><a href="#">Memulai dengan web</a></li>
+                                    <li><a href="#">Menginstall software dasar</a></li>
+                                    <li><a href="#">Seperti apa website anda akan tampil?</a></li>
+                                    <li><a href="#">Berurusan dengan file</a></li>
+                                    <li><a href="#">HTML dasar</a></li>
+                                    <li><a href="#">CSS dasar</a></li>
+                                    <li><a href="#">Javascript dasar</a></li>
+                                    <li><a href="#">Publikasikan website anda</a></li>
+                                    <li><a href="#">Bagaimana website bekerja</a></li>
+                                </ul>
+                            </li>
+                        </ul>
 
                         <a href="#">
                             <h3>HTML -- Fondasi Website</h3>
                         </a>
                         <ul>
-                            <li><a href="#">Pengenalan HTML</a></li>
-                            <li><a href="#">Multimedia dan embedding</a></li>
+                            <li id="memulai2" onclick="munculIlang2()"><a href="#">Pengenalan HTML</a></li>
+
+                            <li id="listIlang2">
+                                <ul>
+                                    <li><a href="#">Pengenalan HTML</a></li>
+                                    <li><a href="#">Memulai dengan HTML</a></li>
+                                    <li><a href="#">Metadata HTML</a></li>
+                                    <li><a href="#">Teks HTML mendasar</a></li>
+                                    <li><a href="#">Membuat hyperlink</a></li>
+                                    <li><a href="#">Format teks lanjutan</a></li>
+                                    <li><a href="#">Dokumen dan struktur website</a></li>
+                                    <li><a href="#">Debugging HTML</a></li>
+                                    <li><a href="#">Menandai huruf</a></li>
+                                    <li><a href="#">Menyusun halaman konten</a></li>
+                                </ul>
+                            </li>
+
+                            <li id="memulai3" onclick="munculIlang3()"><a href="#">Multimedia dan embedding</a></li>
+
+                            <li id="listIlang3">
+                                <ul>
+                                    <li><a href="#">Multimedia dan embedding</a></li>
+                                    <li><a href="#">Gambar di HTML</a></li>
+                                    <li><a href="#">Video dan audio content</a></li>
+                                    <li><a href="#">Dari objek ke iframe -- teknologi embed lainnya</a></li>
+                                    <li><a href="#">Menambahkan grafik vector ke web</a></li>
+                                    <li><a href="#">Gambar responsif</a></li>
+                                    <li><a href="#">Mozilla splash image</a></li>
+                                </ul>
+                            </li>
+
                             <li><a href="#">Tabel HTML</a></li>
                         </ul>
 
@@ -315,7 +366,7 @@
                             peramban dan sistem operasi tempat situs tersebut berjalan, atau bahkan data dari situs web
                             atau layanan lain. Dalam modul ini kita akan mempelajari apa itu API, dan bagaimana cara
                             menggunakan beberapa API yang paling umum yang akan sering Anda temui
-                        <span id="menyelesaikan">dalam pekerjaan pengembangan Anda.</span>
+                            <span id="masalahUmum">dalam pekerjaan pengembangan Anda.</span>
                     </div>
 
                     <div class="handap">
@@ -367,7 +418,7 @@
                         <a href="#modul">
                             <p>Modul</p>
                         </a>
-                        <a href="#menyelesaikan">
+                        <a href="#masalahUmum">
                             <p>Menyelesaikan masalah umum javascript</p>
                         </a>
                         <a href="#lihat">
@@ -493,7 +544,7 @@
                 Ghazwan 2023.</h3>
         </footer>
     </div>
-<!-- PopUp Login -->
+    <!-- PopUp Login -->
     <div class="bungkus-login" id="login-background">
         <div class="wrapper" id="login-popup">
             <span class="icon-close btn-popup">
@@ -522,7 +573,8 @@
                     </div>
                     <button type="submit" class="btn-submit">Login</button>
                     <div class="login-register">
-                        <p>Don't have account? <span class="register-link" onclick="switchRegister()">Register</span></p>
+                        <p>Don't have account? <span class="register-link" onclick="switchRegister()">Register</span>
+                        </p>
                     </div>
                 </form>
             </div>

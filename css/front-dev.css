@@ -265,11 +265,13 @@ article blockquote {
 /* daftar isi kanan*/
 
 .bungkus-daftar-isi {
-    top: 25vh;
     position: sticky;
+    top: 160px;
+    margin-bottom: 20vh;
 }
 
 aside.kanan{
+    margin-top: -100px;
     background-color: #eee;
 }
 
