@@ -212,7 +212,7 @@ nav button:active {
     cursor: pointer;
 }
 
-#listIlang, #listIlang2, #listIlang3 {
+#listIlang, #listIlang2, #listIlang3, #listIlang4, #listIlang5, #listIlang6, #listIlang7, #listIlang8, #listIlang9 {
     list-style: none;
     display: none;
 }

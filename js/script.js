@@ -28,12 +28,13 @@ function switchLogin() {
   login.classList.remove("active");
 }
 
-// konten
+// !daftar isi kiri
 function munculIlang() {
   let aidi = document.getElementById("listIlang");
   let aidi2 = document.getElementById("memulai");
 
   if (aidi.style.display == "none") {
+
     aidi.style.display = "block";
     aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
   } else {
@@ -47,6 +48,7 @@ function munculIlang2() {
   let aidi2 = document.getElementById("memulai2");
 
   if (aidi.style.display == "none") {
+
     aidi.style.display = "block";
     aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
   } else {
@@ -60,6 +62,35 @@ function munculIlang3() {
   let aidi2 = document.getElementById("memulai3");
 
   if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+function munculIlang4() {
+  let aidi = document.getElementById("listIlang4");
+  let aidi2 = document.getElementById("memulai4");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+function munculIlang5() {
+  let aidi = document.getElementById("listIlang5");
+  let aidi2 = document.getElementById("memulai5");
+
+  if (aidi.style.display == "none") {
+
     aidi.style.display = "block";
     aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
   } else {
@@ -69,7 +100,59 @@ function munculIlang3() {
 }
 
 
-// mode hitam
-function ireng() {
-    let ireng = document.getElementById("")
+function munculIlang6() {
+  let aidi = document.getElementById("listIlang6");
+  let aidi2 = document.getElementById("memulai6");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+
+function munculIlang7() {
+  let aidi = document.getElementById("listIlang7");
+  let aidi2 = document.getElementById("memulai7");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+function munculIlang8() {
+  let aidi = document.getElementById("listIlang8");
+  let aidi2 = document.getElementById("memulai8");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+function munculIlang9() {
+  let aidi = document.getElementById("listIlang9");
+  let aidi2 = document.getElementById("memulai9");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
 }
