@@ -170,3 +170,17 @@ function munculIlang10() {
     aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
   }
 }
+
+function munculIlang12() {
+  let aidi = document.getElementById("listIlang12");
+  let aidi2 = document.getElementById("memulai12");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
