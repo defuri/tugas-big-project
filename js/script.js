@@ -156,3 +156,17 @@ function munculIlang9() {
     aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
   }
 }
+
+function munculIlang10() {
+  let aidi = document.getElementById("listIlang10");
+  let aidi2 = document.getElementById("memulai10");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
