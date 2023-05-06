@@ -270,17 +270,76 @@ function munculIlang17() {
 }
 
 
-// function munculIlang18() {
-//   let aidi = document.getElementById("listIlang18");
-//   let aidi2 = document.getElementById("memulai18");
+function munculIlang18() {
+  let aidi = document.getElementById("listIlang18");
+  let aidi2 = document.getElementById("memulai18");
 
-//   if (aidi.style.display == "none") {
+  if (aidi.style.display == "none") {
 
-//     aidi.style.display = "block";
-//     aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
-//   } else {
-//     aidi.style.display = "none";
-//     aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
-//   }
-// }
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
 
+
+function munculIlang19() {
+  let aidi = document.getElementById("listIlang19");
+  let aidi2 = document.getElementById("memulai19");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+
+function munculIlang20() {
+  let aidi = document.getElementById("listIlang20");
+  let aidi2 = document.getElementById("memulai20");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+
+function munculIlang21() {
+  let aidi = document.getElementById("listIlang21");
+  let aidi2 = document.getElementById("memulai21");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+
+function munculIlang22() {
+  let aidi = document.getElementById("listIlang22");
+  let aidi2 = document.getElementById("memulai22");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
