@@ -29,6 +29,7 @@ function switchLogin() {
 }
 
 // !daftar isi kiri
+
 function munculIlang() {
   let aidi = document.getElementById("listIlang");
   let aidi2 = document.getElementById("memulai");
@@ -113,7 +114,6 @@ function munculIlang6() {
     aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
   }
 }
-
 
 function munculIlang7() {
   let aidi = document.getElementById("listIlang7");
@@ -212,3 +212,17 @@ function munculIlang13() {
     aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
   }
 }
+
+function munculIlang14() {
+  let aidi = document.getElementById("listIlang14");
+  let aidi2 = document.getElementById("memulai14");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+} 
