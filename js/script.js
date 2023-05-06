@@ -225,4 +225,33 @@ function munculIlang14() {
     aidi.style.display = "none";
     aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
   }
-} 
+}
+
+function munculIlang15() {
+  let aidi = document.getElementById("listIlang15");
+  let aidi2 = document.getElementById("memulai15");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+function munculIlang16() {
+  let aidi = document.getElementById("listIlang16");
+  let aidi2 = document.getElementById("memulai16");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
