@@ -212,7 +212,7 @@ nav button:active {
     cursor: pointer;
 }
 
-#listIlang, #listIlang2, #listIlang3, #listIlang4, #listIlang5, #listIlang6, #listIlang7, #listIlang8, #listIlang9, #listIlang10, #listIlang11, #listIlang12, #listIlang13, #listIlang14, #listIlang15, #listIlang16, #listIlang17, #listIlang18, #listIlang19, #listIlang20, #listIlang21, #listIlang22 {
+#listIlang, #listIlang2, #listIlang3, #listIlang4, #listIlang5, #listIlang6, #listIlang7, #listIlang8, #listIlang9, #listIlang10, #listIlang11, #listIlang12, #listIlang13, #listIlang14, #listIlang15, #listIlang16, #listIlang17, #listIlang18, #listIlang19, #listIlang20, #listIlang21, #listIlang22, #listIlang23 {
     list-style: none;
     display: none;
 }
