@@ -372,3 +372,73 @@ function munculIlang24() {
     aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
   }
 }
+
+function munculIlang25() {
+  let aidi = document.getElementById("listIlang25");
+  let aidi2 = document.getElementById("memulai25");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+function munculIlang26() {
+  let aidi = document.getElementById("listIlang26");
+  let aidi2 = document.getElementById("memulai26");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+function munculIlang27() {
+  let aidi = document.getElementById("listIlang27");
+  let aidi2 = document.getElementById("memulai27");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+function munculIlang28() {
+  let aidi = document.getElementById("listIlang28");
+  let aidi2 = document.getElementById("memulai28");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
+
+function munculIlang29() {
+  let aidi = document.getElementById("listIlang29");
+  let aidi2 = document.getElementById("memulai29");
+
+  if (aidi.style.display == "none") {
+
+    aidi.style.display = "block";
+    aidi2.style.listStyle = "url(../images/segitigaBawah.jpeg)";
+  } else {
+    aidi.style.display = "none";
+    aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
+  }
+}
