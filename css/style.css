@@ -97,7 +97,7 @@ nav button:active {
 
 #navigasi {
     margin-left: -50px;
-    transition: all .5s ease;
+    transition: .5s ease;
 }
 
 #navigasi.scrolled1 {
