@@ -16,18 +16,16 @@
 *,
 body,
 html {
-    margin: 0;
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 .kontainer-nav {
     position: fixed;
-    background-color: #fedcaf;
     display: flex;
     justify-content: center;
     width: 100%;
     transition: all .5s ease;
-
 }
 
 .kontainer-nav.scrolled {
@@ -70,9 +68,10 @@ nav ul li {
     margin-right: 35px;
 }
 
-nav ul, nav button {
+nav ul,
+nav button {
     font-family: 'Poppins', sans-serif;
-}   
+}
 
 nav button {
     width: 100px;
@@ -106,7 +105,7 @@ nav button:active {
 
 #navigasi a {
     position: relative;
-    color:#000;
+    color: #000;
 }
 
 #navigasi a::after {
@@ -411,26 +410,24 @@ p {
     background-color: #0067d4;
 }
 
-/* footer */
+/* !footer */
 #container-footer {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     background-color: #ff6961;
 }
 
 footer {
     width: 1200px;
-    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .kaki {
-    width: 98%;
+    width: 100%;
     padding-top: 100px;
     display: flex;
     justify-content: space-around;
@@ -440,43 +437,41 @@ footer {
     text-decoration: none;
 }
 
+@keyframes zoom { /*!animasi hover footer*/
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 .kaki a:hover {
     animation: zoom ease-in-out .5s infinite;
 }
 
-@keyframes zoom {
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1);
-    }
+.produk a, .informasi a, .hubungikami a {
+    display: block;
 }
 
 .produk a {
     color: #000;
-    display: block;
     line-height: 40px;
 }
 
 .informasi a {
     color: #000;
-    display: block;
     line-height: 40px;
 }
 
 .hubungikami a {
     color: #000;
-    display: block;
     line-height: 40px;
-}
-
-h3 {
-    color: #000;
-    font-size: bold;
 }
 
 .footimage {
@@ -487,13 +482,14 @@ h3 {
 }
 
 .kopirek {
+    font-weight: 700;
     margin-top: 80px;
     text-align: center;
     padding-bottom: 30px;
     color: #000;
 }
 
-/* login popup css */
+/* !login popup css */
 
 .bungkus-login {
     font-family: 'Poppins', sans-serif;
@@ -509,11 +505,11 @@ h3 {
     transform: scale(0);
 }
 
-.bungkus-login.active-btn{
+.bungkus-login.active-btn {
     transform: scale(1);
 }
 
-.key{
+.key {
     font-size: 24px;
 }
 
@@ -543,7 +539,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#fff,#aaa);
+    background: linear-gradient(#fff, #aaa);
     width: 400px;
     height: 440px;
     border: 3px solid rgba(0, 0, 0, 1);
