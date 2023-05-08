@@ -1,4 +1,4 @@
-window.addEventListener("scroll", function () {
+window.addEventListener("scroll", () => {
   let navbar = document.querySelector(".kontainer-nav");
   navbar.classList.toggle("scrolled", window.scrollY > 50);
   let navbar1 = document.querySelector("#navigasi");
@@ -10,27 +10,27 @@ window.addEventListener("scroll", function () {
 let login = document.getElementById("login-popup");
 let bg = document.getElementById("login-background");
 
-function openLogin() {
+openLogin = () => {
   login.classList.add("active-btn");
   bg.classList.add("active-btn");
 }
 
-function closeLogin() {
+closeLogin = () => {
   login.classList.remove("active-btn");
   bg.classList.remove("active-btn");
 }
 
-function switchRegister() {
+switchRegister = () => {
   login.classList.add("active");
 }
 
-function switchLogin() {
+switchLogin = () => {
   login.classList.remove("active");
 }
 
 // !daftar isi kiri
 
-function munculIlang() {
+munculIlang = () => {
   let aidi = document.getElementById("listIlang");
   let aidi2 = document.getElementById("memulai");
 
@@ -44,7 +44,7 @@ function munculIlang() {
   }
 }
 
-function munculIlang2() {
+munculIlang2 = () => {
   let aidi = document.getElementById("listIlang2");
   let aidi2 = document.getElementById("memulai2");
 
@@ -58,7 +58,7 @@ function munculIlang2() {
   }
 }
 
-function munculIlang3() {
+munculIlang3 = () => {
   let aidi = document.getElementById("listIlang3");
   let aidi2 = document.getElementById("memulai3");
 
@@ -72,7 +72,7 @@ function munculIlang3() {
   }
 }
 
-function munculIlang4() {
+munculIlang4 = () => {
   let aidi = document.getElementById("listIlang4");
   let aidi2 = document.getElementById("memulai4");
 
@@ -86,7 +86,7 @@ function munculIlang4() {
   }
 }
 
-function munculIlang5() {
+munculIlang5 = () => {
   let aidi = document.getElementById("listIlang5");
   let aidi2 = document.getElementById("memulai5");
 
@@ -101,7 +101,7 @@ function munculIlang5() {
 }
 
 
-function munculIlang6() {
+munculIlang6 = () => {
   let aidi = document.getElementById("listIlang6");
   let aidi2 = document.getElementById("memulai6");
 
@@ -115,7 +115,7 @@ function munculIlang6() {
   }
 }
 
-function munculIlang7() {
+munculIlang7 = () => {
   let aidi = document.getElementById("listIlang7");
   let aidi2 = document.getElementById("memulai7");
 
@@ -129,7 +129,7 @@ function munculIlang7() {
   }
 }
 
-function munculIlang8() {
+munculIlang8 = () => {
   let aidi = document.getElementById("listIlang8");
   let aidi2 = document.getElementById("memulai8");
 
@@ -143,7 +143,7 @@ function munculIlang8() {
   }
 }
 
-function munculIlang9() {
+munculIlang9 = () => {
   let aidi = document.getElementById("listIlang9");
   let aidi2 = document.getElementById("memulai9");
 
@@ -157,7 +157,7 @@ function munculIlang9() {
   }
 }
 
-function munculIlang10() {
+munculIlang10 = () => {
   let aidi = document.getElementById("listIlang10");
   let aidi2 = document.getElementById("memulai10");
 
@@ -171,7 +171,7 @@ function munculIlang10() {
   }
 }
 
-function munculIlang11() {
+munculIlang11 = () => {
   let aidi = document.getElementById("listIlang11");
   let aidi2 = document.getElementById("memulai11");
 
@@ -185,7 +185,7 @@ function munculIlang11() {
   }
 }
 
-function munculIlang12() {
+munculIlang12 = () => {
   let aidi = document.getElementById("listIlang12");
   let aidi2 = document.getElementById("memulai12");
 
@@ -199,7 +199,7 @@ function munculIlang12() {
   }
 }
 
-function munculIlang13() {
+munculIlang13 = () => {
   let aidi = document.getElementById("listIlang13");
   let aidi2 = document.getElementById("memulai13");
 
@@ -213,7 +213,7 @@ function munculIlang13() {
   }
 }
 
-function munculIlang14() {
+munculIlang14 = () => {
   let aidi = document.getElementById("listIlang14");
   let aidi2 = document.getElementById("memulai14");
 
@@ -227,7 +227,7 @@ function munculIlang14() {
   }
 }
 
-function munculIlang15() {
+munculIlang15 = () => {
   let aidi = document.getElementById("listIlang15");
   let aidi2 = document.getElementById("memulai15");
 
@@ -241,7 +241,7 @@ function munculIlang15() {
   }
 }
 
-function munculIlang16() {
+munculIlang16 = () => {
   let aidi = document.getElementById("listIlang16");
   let aidi2 = document.getElementById("memulai16");
 
@@ -255,7 +255,7 @@ function munculIlang16() {
   }
 }
 
-function munculIlang17() {
+munculIlang17 = () => {
   let aidi = document.getElementById("listIlang17");
   let aidi2 = document.getElementById("memulai17");
 
@@ -270,7 +270,7 @@ function munculIlang17() {
 }
 
 
-function munculIlang18() {
+munculIlang18 = () => {
   let aidi = document.getElementById("listIlang18");
   let aidi2 = document.getElementById("memulai18");
 
@@ -285,7 +285,7 @@ function munculIlang18() {
 }
 
 
-function munculIlang19() {
+munculIlang19 = () => {
   let aidi = document.getElementById("listIlang19");
   let aidi2 = document.getElementById("memulai19");
 
@@ -300,7 +300,7 @@ function munculIlang19() {
 }
 
 
-function munculIlang20() {
+munculIlang20 = () => {
   let aidi = document.getElementById("listIlang20");
   let aidi2 = document.getElementById("memulai20");
 
@@ -315,7 +315,7 @@ function munculIlang20() {
 }
 
 
-function munculIlang21() {
+munculIlang21 = () => {
   let aidi = document.getElementById("listIlang21");
   let aidi2 = document.getElementById("memulai21");
 
@@ -330,7 +330,7 @@ function munculIlang21() {
 }
 
 
-function munculIlang22() {
+munculIlang22 = () => {
   let aidi = document.getElementById("listIlang22");
   let aidi2 = document.getElementById("memulai22");
 
@@ -345,7 +345,7 @@ function munculIlang22() {
 }
 
 
-function munculIlang23() {
+munculIlang23 = () => {
   let aidi = document.getElementById("listIlang23");
   let aidi2 = document.getElementById("memulai23");
 
@@ -359,7 +359,7 @@ function munculIlang23() {
   }
 }
 
-function munculIlang24() {
+munculIlang24 = () => {
   let aidi = document.getElementById("listIlang24");
   let aidi2 = document.getElementById("memulai24");
 
@@ -373,7 +373,7 @@ function munculIlang24() {
   }
 }
 
-function munculIlang25() {
+munculIlang25 = () => {
   let aidi = document.getElementById("listIlang25");
   let aidi2 = document.getElementById("memulai25");
 
@@ -387,7 +387,7 @@ function munculIlang25() {
   }
 }
 
-function munculIlang26() {
+munculIlang26 = () => {
   let aidi = document.getElementById("listIlang26");
   let aidi2 = document.getElementById("memulai26");
 
@@ -401,7 +401,7 @@ function munculIlang26() {
   }
 }
 
-function munculIlang27() {
+munculIlang27 = () => {
   let aidi = document.getElementById("listIlang27");
   let aidi2 = document.getElementById("memulai27");
 
@@ -415,7 +415,7 @@ function munculIlang27() {
   }
 }
 
-function munculIlang28() {
+munculIlang28 = () => {
   let aidi = document.getElementById("listIlang28");
   let aidi2 = document.getElementById("memulai28");
 
@@ -429,7 +429,7 @@ function munculIlang28() {
   }
 }
 
-function munculIlang29() {
+munculIlang29 = () => {
   let aidi = document.getElementById("listIlang29");
   let aidi2 = document.getElementById("memulai29");
 
@@ -443,7 +443,7 @@ function munculIlang29() {
   }
 }
 
-function munculIlang30() {
+munculIlang30 = () => {
   let aidi = document.getElementById("listIlang30");
   let aidi2 = document.getElementById("memulai30");
 
@@ -457,7 +457,7 @@ function munculIlang30() {
   }
 }
 
-function munculIlang31() {
+munculIlang31 = () => {
   let aidi = document.getElementById("listIlang31");
   let aidi2 = document.getElementById("memulai31");
 
