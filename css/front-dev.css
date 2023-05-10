@@ -184,7 +184,7 @@ nav button:active {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 0.8rem;
     text-transform: uppercase;
-    color: #404040;
+    color: 404040;
 }
 
 
@@ -198,12 +198,22 @@ nav button:active {
     }
 }
 
+@keyframes biasa {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+aside.kiri a {
+    animation: biasa 0.3s linear both;
+}
+
 aside.kiri a:hover {
-    animation-name: jum;
-    animation-duration: 0.3s;
-    animation-timing-function: linear;
-    animation-direction: normal;
-    animation-fill-mode: both;
+    animation: jum 0.3s linear both;
 }
 
 article {
@@ -370,7 +380,7 @@ aside.kanan{
 }
 
 .newsletter {
-    margin: 80px 30px 30px 30px;
+    margin: 80px 30px 20px 30px;
     width: 500px;
 }
 
