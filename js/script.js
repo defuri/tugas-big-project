@@ -470,3 +470,4 @@ munculIlang31 = () => {
     aidi2.style.listStyle = "url(../images/segitigaKanan.jpeg)";
   }
 }
+

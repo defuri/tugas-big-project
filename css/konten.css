@@ -674,7 +674,7 @@ footer {
     text-decoration: none;
 }
 
-.kaki a:hover {
+.kaki .jj:hover {
     animation: zoom ease-in-out .5s infinite;
 }
 
