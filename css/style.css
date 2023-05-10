@@ -317,17 +317,19 @@ p {
     cursor: pointer;
 }
 
-/* newsletter */
+/* !newsletter */
 .bungkus-newsletter {
     background-color: #66b2ff;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 370px;
+    height: 470px;
+    padding: 50px;
 }
 
 .daleman {
     padding: 25px;
+    padding-left: 0;
     background-color: whitesmoke;
     border-radius: 25px;
     border: 1px solid black;
@@ -339,12 +341,17 @@ p {
     width: 600px;
     background-color: whitesmoke;
     margin: 20px;
+    flex-wrap: wrap;
+}
+
+.newsletter img {
+    width: 220px;
 }
 
 .kata-kata {
     margin: 20px;
     margin-top: -7px;
-    width: 430px;
+    width: 620px;
 }
 
 .kata-kata h1 {
@@ -365,20 +372,22 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    line-height: 0px;
+    margin-left: 40px;
 }
 
-.news-induk .news {
-    width: 180px;
+.news-induk .news /* !input newsletter */ {
+    padding: 12px;
+    width: 240px;
     margin-bottom: 17px;
     border-radius: 25px;
     border: solid 1px gray;
-    padding: 8px;
 }
 
 .kotak {
     display: flex;
     width: inherit;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 .box {
@@ -389,10 +398,11 @@ p {
 
 .kotak p {
     margin-top: 10px;
-    margin-left: 10px;
     font-family: 'Roboto', sans-serif;
     color: #4D4D4D;
     font-size: 12px;
+    /* width: 130px; */
+    line-height: 15px;
 }
 
 .kirim {
