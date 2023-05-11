@@ -31,7 +31,7 @@ a {
 
 .kontainer-nav {
     position: fixed;
-    background-color: #ff6961;
+    background-color: cyan;
     display: flex;
     justify-content: center;
     width: 100%;
