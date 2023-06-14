@@ -1,0 +1,1 @@
+pastikan perangkat sudah terhubung dengan internet ketika memeriksa.
